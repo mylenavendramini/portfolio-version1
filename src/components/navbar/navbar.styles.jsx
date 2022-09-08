@@ -54,6 +54,27 @@ export const Logo = styled.div`
     background-color: var(--text-primary);
     color: var(--background);
   }
+
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+`;
+
+export const LogoAbout = styled.div`
+  display: none;
+
+  a {
+    font-family: "Pacifico", cursive;
+    font-size: 1.3rem;
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--text-primary);
+    color: var(--background);
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: flex;
+  }
 `;
 
 export const NavLinks = styled.div`

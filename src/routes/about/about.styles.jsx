@@ -218,6 +218,8 @@ export const Logo = styled.div`
   }
 `;
 
+export const Home = styled.div``;
+
 export const NavLinks = styled.div`
   text-align: center;
 
@@ -258,6 +260,15 @@ export const FooterContainer = styled.div`
   align-items: center;
   background-color: var(--text-primary);
   color: var(--background);
+
+  a {
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5rem;
+    letter-spacing: 4px;
+    background-color: var(--text-primary);
+    color: var(--background);
+  }
 
   @media only screen and (max-width: 800px) {
     display: flex;

@@ -4,6 +4,7 @@ import { useOnClickOutside } from "../../hooks";
 import {
   NavBarContainer,
   Logo,
+  LogoAbout,
   NavLinks,
   NavLink,
   LinkedinLink,
@@ -19,6 +20,10 @@ const NavBar = () => {
         <Logo>
           <a href="/">MV</a>
         </Logo>
+
+        <LogoAbout>
+          <a href="/about">MV</a>
+        </LogoAbout>
 
         <NavLinks>
           <a href="/about">About</a>

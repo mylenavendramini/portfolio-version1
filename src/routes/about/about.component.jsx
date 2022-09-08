@@ -111,9 +111,7 @@ const About = () => {
       </AboutContainer>
 
       <FooterContainer>
-        <Logo>
-          <a href="/">MV</a>
-        </Logo>
+        <a href="/">HOME</a>
       </FooterContainer>
     </Fragment>
   );
