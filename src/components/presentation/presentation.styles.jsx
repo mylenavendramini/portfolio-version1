@@ -66,7 +66,7 @@ export const PresentationContainer = styled.div`
       font-size: 5rem;
     }
     @media only screen and (max-width: 650px) {
-      font-size: 3.5rem;
+      font-size: 3rem;
       letter-spacing: 2px;
       font-weight: 500;
     }

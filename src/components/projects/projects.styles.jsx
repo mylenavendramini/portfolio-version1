@@ -137,5 +137,9 @@ export const Programs = styled.div`
   h4 {
     padding: 0 1rem 0 1rem;
     letter-spacing: 4px;
+
+    @media only screen and (max-width: 650px) {
+      font-size: 1rem;
+    }
   }
 `;
