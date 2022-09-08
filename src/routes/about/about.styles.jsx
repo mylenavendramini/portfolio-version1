@@ -122,10 +122,29 @@ export const AboutContainer = styled.div`
 `;
 
 export const Gray = styled.h3`
-  color: var(--text-secondary);
+  /* color: var(--text-secondary); */
+
+  background: linear-gradient(
+    to right,
+    var(--text-secondary) 20%,
+    var(--text-primary) 40%,
+    var(--text-secondary) 60%,
+    var(--text-primary) 80%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shine 5s ease-in-out infinite;
+  @keyframes shine {
+    to {
+      background-position: 100% center;
+    }
+  }
 `;
 
-export const LinkedinLink = styled(Link)``;
+export const LinkedinLink = styled.a``;
 
 export const AboutGrid = styled.div`
   display: flex;
@@ -250,20 +269,5 @@ export const FooterContainer = styled.div`
     content: "";
     display: block;
     width: 2px;
-  }
-`;
-
-export const FooterLink = styled(Link)`
-  text-decoration: none;
-  font-size: 0.8rem;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  font-weight: 400;
-  cursor: pointer;
-  background-color: var(--text-primary);
-  color: var(--background);
-
-  &:hover {
-    color: blue;
   }
 `;

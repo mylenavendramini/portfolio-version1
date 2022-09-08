@@ -104,7 +104,7 @@ export const Gradient = styled.h1`
   );
   background-size: 200% auto;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: shine 10s ease-in-out infinite;

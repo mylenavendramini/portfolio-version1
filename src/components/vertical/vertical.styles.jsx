@@ -10,7 +10,7 @@ export const VerticalContainer = styled.div`
   padding-left: 1.1rem;
 `;
 
-export const LinkedinLink = styled(Link)`
+export const LinkedinLink = styled.a`
   text-decoration: none;
   /* padding: 1rem; */
   font-size: 1.5rem;
@@ -20,6 +20,7 @@ export const LinkedinLink = styled(Link)`
   outline: none;
   text-shadow: none;
   border: none;
+  cursor: pointer;
 
   &:hover {
     text-shadow: 0 0 1px var(--text-primary);

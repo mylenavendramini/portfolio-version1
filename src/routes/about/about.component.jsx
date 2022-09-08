@@ -4,21 +4,11 @@ import {
   AboutGrid,
   NavBarContainer,
   Logo,
-  LinkedinLink,
-  NavLinks,
-  NavLink,
   FooterContainer,
-  FooterLink,
-  LogoFooter,
+  LinkedinLink,
 } from "./about.styles";
 
-import {
-  FadeInDiv,
-  FadeIn5Div,
-  PulseDiv,
-  FadeIn10Div,
-  SlideInUpDiv,
-} from "../../animation";
+import { FadeIn5Div, PulseDiv } from "../../animation";
 
 import { Fragment } from "react";
 
@@ -48,16 +38,19 @@ const About = () => {
           data-aos-duration={"2000"}
           data-aos-delay={"500"}
         >
-          Click <a href="/">here</a> to take a look at my CV.
+          Click <a href="/cv">here</a> to take a look at my CV.
         </h1>
         <h6
           data-aos={"fade-up"}
           data-aos-duration={"2000"}
           data-aos-delay={"500"}
         >
-          <a href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/">
+          <LinkedinLink
+            href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/"
+            target="_blank"
+          >
             in
-          </a>
+          </LinkedinLink>
         </h6>
 
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>

@@ -26,7 +26,13 @@ const Vertical = () => {
           </a>
         </VerticalLinks>
       </LeftContainer>
-      <LinkedinLink to="/">in</LinkedinLink>
+
+      <LinkedinLink
+        href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/"
+        target="_blank"
+      >
+        in
+      </LinkedinLink>
     </VerticalContainer>
   );
 };
