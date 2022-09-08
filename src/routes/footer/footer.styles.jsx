@@ -18,6 +18,23 @@ export const FooterContainer = styled.div`
     z-index: 20;
   }
 
+  a {
+    text-decoration: none;
+    background-color: transparent;
+    color: var(--background);
+    text-decoration: none;
+    /* padding: 1rem; */
+    font-size: 1rem;
+    letter-spacing: 2px;
+    transition: color 0.1s;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      text-shadow: 0 0 1px var(--background);
+    }
+  }
+
   /* a:after {
     content: "";
     display: block;
@@ -26,6 +43,7 @@ export const FooterContainer = styled.div`
 `;
 
 export const Logo = styled.div`
+  display: none;
   a {
     font-family: "Pacifico", cursive;
     font-size: 1.3rem;
@@ -38,6 +56,7 @@ export const Logo = styled.div`
 
 export const FooterLinks = styled.div`
   text-align: center;
+  display: none;
 
   a {
     text-decoration: none;

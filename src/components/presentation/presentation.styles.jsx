@@ -17,7 +17,7 @@ export const PresentationContainer = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 4rem 0 0 0;
+    padding: 6rem 0rem 0 1rem;
   }
 
   h3 {
@@ -29,7 +29,7 @@ export const PresentationContainer = styled.div`
       font-size: 1.2rem;
     }
     @media only screen and (max-width: 650px) {
-      font-size: 1rem;
+      font-size: 1.5rem;
       font-weight: 500;
     }
   }
@@ -43,7 +43,7 @@ export const PresentationContainer = styled.div`
       font-size: 1.6rem;
     }
     @media only screen and (max-width: 650px) {
-      font-size: 1.2rem;
+      font-size: 1.8rem;
       font-weight: 500;
     }
   }
@@ -66,9 +66,23 @@ export const PresentationContainer = styled.div`
       font-size: 5rem;
     }
     @media only screen and (max-width: 650px) {
+      font-size: 3.5rem;
+      letter-spacing: 2px;
+      font-weight: 800;
+    }
+  }
+
+  h6 {
+    margin-top: 0rem;
+    padding: 0;
+    display: none;
+
+    @media only screen and (max-width: 550px) {
       font-size: 3rem;
       letter-spacing: 2px;
-      font-weight: 500;
+      font-weight: 800;
+      display: flex;
+      margin-bottom: 1rem;
     }
   }
 
@@ -88,8 +102,9 @@ export const PresentationContainer = styled.div`
       margin-right: 5rem;
     }
     @media only screen and (max-width: 650px) {
-      font-size: 1rem;
+      font-size: 1.2rem;
       font-weight: 500;
+      margin-right: 3rem;
     }
   }
 `;
@@ -112,5 +127,9 @@ export const Gradient = styled.h1`
     to {
       background-position: 100% center;
     }
+  }
+
+  @media only screen and (max-width: 550px) {
+    display: none;
   }
 `;

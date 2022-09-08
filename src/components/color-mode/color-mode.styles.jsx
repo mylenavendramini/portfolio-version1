@@ -10,8 +10,9 @@ export const LabelColorMode = styled.label`
   color: var(--background);
 
   @media only screen and (max-width: 800px) {
-    position: absolute;
-    right: 0;
+    /* position: absolute; */
+    /* right: 0; */
+    margin-right: 1rem;
   }
 `;
 

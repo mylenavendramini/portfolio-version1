@@ -28,6 +28,7 @@ const Presentation = () => {
       <PulseDiv>
         {" "}
         <Gradient>FRONT-END DEVELOPER</Gradient>
+        <h6>FRONT-END DEVELOPER</h6>
       </PulseDiv>
 
       <FadeIn10Div>

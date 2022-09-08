@@ -1,9 +1,13 @@
 import { useRef, useState, Fragment } from "react";
 import { useOnClickOutside } from "../../hooks";
-import { Outlet } from "react-router-dom";
 
-import { NavBarContainer, Logo, NavLinks, NavLink } from "./navbar.styles";
-import { Link } from "react-router-dom";
+import {
+  NavBarContainer,
+  Logo,
+  NavLinks,
+  NavLink,
+  LinkedinLink,
+} from "./navbar.styles";
 
 const NavBar = () => {
   //burger
@@ -15,6 +19,7 @@ const NavBar = () => {
         <Logo>
           <a href="/">MV</a>
         </Logo>
+
         <NavLinks>
           <a href="/about">About</a>
           <NavLink to="projects">Projects</NavLink>
@@ -22,6 +27,12 @@ const NavBar = () => {
             Contact
           </NavLink>
         </NavLinks>
+        <LinkedinLink
+          href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/"
+          target="_blank"
+        >
+          in
+        </LinkedinLink>
       </NavBarContainer>
 
       {/*     <Outlet />*/}

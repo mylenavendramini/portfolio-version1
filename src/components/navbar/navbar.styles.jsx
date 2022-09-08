@@ -15,11 +15,11 @@ export const NavBarContainer = styled.div`
   top: 0;
 
   @media only screen and (max-width: 800px) {
-    display: none;
+    justify-content: center;
   }
 
   h1 {
-    display: none;
+    /* display: none; */
     font-size: 4.5rem;
     text-align: center;
     margin-left: 13rem;
@@ -59,6 +59,10 @@ export const Logo = styled.div`
 export const NavLinks = styled.div`
   text-align: center;
 
+  @media only screen and (max-width: 800px) {
+    display: none;
+  }
+
   a {
     text-decoration: none;
     padding: 0.5rem;
@@ -77,4 +81,29 @@ export const NavLink = styled(Link)`
 export const Button = styled.button`
   background-color: transparent;
   border: none;
+`;
+
+export const LinkedinLink = styled.a`
+  display: none;
+  text-decoration: none;
+  /* padding: 1rem; */
+  position: absolute;
+  left: 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+  transition: color 0.1s;
+  background-color: transparent;
+  color: var(--background);
+  outline: none;
+  text-shadow: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    text-shadow: 0 0 1px var(--background);
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: flex;
+  }
 `;

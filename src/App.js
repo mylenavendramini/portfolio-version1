@@ -71,13 +71,6 @@ function App() {
               <Home />
               <FooterContainer>
                 <Footer />
-                <LabelColorMode>
-                  <InputColorMode
-                    type="checkbox"
-                    onClick={switchTheme}
-                  ></InputColorMode>
-                  <SpanColorMode></SpanColorMode>
-                </LabelColorMode>
               </FooterContainer>
             </Fragment>
           }

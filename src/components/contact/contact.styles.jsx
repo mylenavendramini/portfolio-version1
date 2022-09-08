@@ -12,7 +12,7 @@ export const ContactContainer = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 4rem 4rem 4rem 0;
+    padding: 4rem 0rem 4rem 0.5rem;
     margin-bottom: 5rem;
     margin-top: 5rem;
   }
@@ -58,3 +58,5 @@ export const ContactContainer = styled.div`
     }
   }
 `;
+
+export const LinkedinLink = styled.a``;

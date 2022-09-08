@@ -1,4 +1,4 @@
-import { ContactContainer } from "./contact.styles";
+import { ContactContainer, LinkedinLink } from "./contact.styles";
 
 const Contact = () => {
   return (
@@ -11,7 +11,14 @@ const Contact = () => {
         <a href="mailto:myvendramini@gmail.com?subject=travelwithme">
           myvendramini@gmail.com
         </a>{" "}
-        or follow me on <a href="/">Social Media</a>.
+        or follow me on{" "}
+        <LinkedinLink
+          href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/"
+          target="_blank"
+        >
+          Social Media
+        </LinkedinLink>
+        .
       </h3>
     </ContactContainer>
   );

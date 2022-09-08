@@ -12,6 +12,18 @@ export const PopUpContent = styled.div`
   /* box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3); */
   z-index: 1000;
   transition: all 0.5s;
+
+  @media only screen and (max-width: 1250px) {
+    width: 100%;
+  }
+
+  @media only screen and (max-width: 1050px) {
+    width: 80%;
+  }
+
+  @media only screen and (max-width: 650px) {
+    width: 100%;
+  }
 `;
 
 export const Modal = styled.div`
@@ -20,7 +32,14 @@ export const Modal = styled.div`
   gap: 3rem;
   background-color: var(--background);
   padding: 2rem;
-  /* box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.4);   */
+
+  @media only screen and (max-width: 1050px) {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media only screen and (max-width: 650px) {
+  }
 `;
 
 export const ModalImage = styled.div`
@@ -29,6 +48,10 @@ export const ModalImage = styled.div`
   align-items: center;
   /* background-color: var(--text-primary); */
   padding: 1rem;
+
+  @media only screen and (max-width: 1050px) {
+    padding: 2rem;
+  }
 
   img {
     width: 100%;
@@ -40,11 +63,20 @@ export const ModalContent = styled.div`
   padding: 10px 5px;
   background-color: var(--background);
 
+  @media only screen and (max-width: 1050px) {
+  }
+
   h3 {
     font-size: 1.5rem;
     line-height: 30px;
     text-align: center;
     background-color: var(--background);
+
+    @media only screen and (max-width: 1050px) {
+      margin-top: -2rem;
+      font-size: 1.2rem;
+      line-height: 3px;
+    }
   }
 
   h2 {
@@ -52,16 +84,21 @@ export const ModalContent = styled.div`
     line-height: 30px;
     text-align: justify;
     background-color: var(--background);
+
+    @media only screen and (max-width: 1050px) {
+      font-size: 1rem;
+      line-height: 25px;
+    }
   }
 `;
 
 export const ModalClose = styled.a`
   color: inherit;
   position: absolute;
-  margin-left: 63rem;
-  margin-top: -1.5rem;
-  /* top: 2rem;
-  right: 4rem; */
+  /* margin-left: 63rem;
+  margin-top: -1.5rem; */
+  top: 2rem;
+  right: 4rem;
   font-size: 3rem;
   cursor: pointer;
   border: none;
@@ -69,6 +106,9 @@ export const ModalClose = styled.a`
   color: var(--text-primary);
   /* border-radius: 10px; */
   transition: all 0.3s linear;
+
+  @media only screen and (max-width: 1000px) {
+  }
 `;
 
 export const WebsiteButton = styled.button`
