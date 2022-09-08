@@ -29,8 +29,8 @@ const PopupTodaCidada = ({ close }) => (
               organization that aims to promote debates about politics,
               economics and constitutional rights. I’ve been working with them
               since january of 2022, where I learned to work with a client,
-              understand their needs and transform their ideas into a visually
-              pleasing, intuitive and easily accessible website.
+              understand his needs and transform his ideas into a intuitive and
+              easily accessible website.
             </h2>
             <Link href="https://todacidada.com/" target="_blank">
               <WebsiteButton>View Website</WebsiteButton>

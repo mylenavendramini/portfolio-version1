@@ -25,9 +25,9 @@ const PopupTravelWithMe = ({ close }) => (
           <ModalContent>
             <h3>Travel With Me</h3>
             <h2>
-              Website created because of my passion for traveling. In it, you
-              will find the services the client provides and testimonials from
-              those who worked with them. Also, there’s a blog where the client
+              Website created because of my passion for travelling. You will
+              find the services the client provides and testimonials from those
+              who worked with them. Also, there’s a blog where the client can
               tells his experiences around the world.
             </h2>
             <Link href="https://travel-withme.herokuapp.com/" target="_blank">
