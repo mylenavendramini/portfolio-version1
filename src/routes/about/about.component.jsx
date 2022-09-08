@@ -6,9 +6,10 @@ import {
   Logo,
   FooterContainer,
   LinkedinLink,
+  ScrollDown,
 } from "./about.styles";
 
-import { FadeIn5Div, PulseDiv } from "../../animation";
+import { FadeIn5Div, FadeIn10Div, PulseDiv } from "../../animation";
 
 import { Fragment } from "react";
 
@@ -52,7 +53,12 @@ const About = () => {
             in
           </LinkedinLink>
         </h6>
-
+        <FadeIn10Div>
+          <ScrollDown to="aboutme" spy={true} smooth={true}>
+            <h6>Scroll down &#8675;</h6>
+          </ScrollDown>
+        </FadeIn10Div>
+        <p id="aboutme"> </p>
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
           A little more about me:
         </h4>

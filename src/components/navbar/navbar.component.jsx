@@ -7,7 +7,7 @@ import {
   LogoAbout,
   NavLinks,
   NavLink,
-  LinkedinLink,
+  AboutLink,
 } from "./navbar.styles";
 
 const NavBar = () => {
@@ -27,17 +27,14 @@ const NavBar = () => {
 
         <NavLinks>
           <a href="/about">About</a>
-          <NavLink to="projects">Projects</NavLink>
+          <NavLink to="projects" spy={true} smooth={true}>
+            Projects
+          </NavLink>
           <NavLink to="contact" spy={true} smooth={true}>
             Contact
           </NavLink>
         </NavLinks>
-        <LinkedinLink
-          href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/"
-          target="_blank"
-        >
-          in
-        </LinkedinLink>
+        <AboutLink href="/about">ABOUT</AboutLink>
       </NavBarContainer>
 
       {/*     <Outlet />*/}

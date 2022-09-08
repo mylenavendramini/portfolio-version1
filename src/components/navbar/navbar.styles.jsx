@@ -104,21 +104,17 @@ export const Button = styled.button`
   border: none;
 `;
 
-export const LinkedinLink = styled.a`
+export const AboutLink = styled.a`
   display: none;
-  text-decoration: none;
-  /* padding: 1rem; */
   position: absolute;
-  left: 1rem;
-  font-size: 1.5rem;
-  font-weight: 800;
-  transition: color 0.1s;
-  background-color: transparent;
+  left: 0.11rem;
+  text-decoration: none;
+  padding: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  padding-left: 2.5rem;
+  background-color: var(--text-primary);
   color: var(--background);
-  outline: none;
-  text-shadow: none;
-  border: none;
-  cursor: pointer;
 
   &:hover {
     text-shadow: 0 0 1px var(--background);

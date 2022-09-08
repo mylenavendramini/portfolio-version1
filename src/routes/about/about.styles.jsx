@@ -38,6 +38,10 @@ export const AboutContainer = styled.div`
     line-height: 30px;
     letter-spacing: 1px;
     font-weight: 500;
+
+    @media only screen and (max-width: 650px) {
+      margin-top: 5rem;
+    }
   }
 
   h6 {
@@ -121,9 +125,28 @@ export const AboutContainer = styled.div`
   }
 `;
 
-export const Gray = styled.h3`
-  /* color: var(--text-secondary); */
+export const ScrollDown = styled(Link)`
+  h6 {
+    text-align: center;
+    cursor: pointer;
+    font-size: 1.3rem;
+    line-height: 30px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: var(--text-primary);
+    transition: color 0.2s;
 
+    @media only screen and (max-width: 650px) {
+      margin-top: 4rem;
+    }
+
+    &:hover {
+      color: var(--text-secondary);
+    }
+  }
+`;
+
+export const Gray = styled.h3`
   background: linear-gradient(
     to right,
     var(--text-secondary) 20%,

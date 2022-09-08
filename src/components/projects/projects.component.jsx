@@ -50,8 +50,8 @@ const Projects = () => {
                 <h2>
                   Website created because of my passion for travelling. You will
                   find the services the client provides and testimonials from
-                  those who worked with them. Also, there’s a blog where the
-                  client can tells his experiences around the world.
+                  those who worked with him. Also, there’s a blog where he can
+                  talk about his experiences around the world.
                 </h2>
                 <Programs>
                   <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4>
@@ -71,7 +71,7 @@ const Projects = () => {
                 <h2>
                   First website I created using React JS and when I learned how
                   relevant and brilliant this library is. The client is an
-                  author who exposes his books, biography and reviews on a
+                  author who exposes her books, biography and reviews on a
                   website that represents the personality of the author.
                 </h2>
                 <Programs>

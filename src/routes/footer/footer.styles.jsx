@@ -29,6 +29,8 @@ export const FooterContainer = styled.div`
     transition: color 0.1s;
     border: none;
     cursor: pointer;
+    position: absolute;
+    right: 1rem;
 
     &:hover {
       text-shadow: 0 0 1px var(--background);
@@ -71,4 +73,29 @@ export const FooterLinks = styled.div`
 
 export const FooterLink = styled(Link)`
   cursor: pointer;
+`;
+
+export const LinkedinLink = styled.a`
+  display: none;
+  text-decoration: none;
+  /* padding: 1rem; */
+  position: absolute;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: color 0.1s;
+  background-color: transparent;
+  color: var(--background);
+  outline: none;
+  text-shadow: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    text-shadow: 0 0 1px var(--background);
+  }
+
+  @media only screen and (max-width: 800px) {
+    display: flex;
+  }
 `;

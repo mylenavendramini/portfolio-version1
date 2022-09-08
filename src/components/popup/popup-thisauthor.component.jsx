@@ -27,7 +27,7 @@ const PopupThisAuthor = ({ close }) => (
             <h2>
               First website I created using React JS and when I learned how
               relevant and brilliant this library is. The client is an author
-              who exposes his books, biography and reviews on a website that
+              who exposes her books, biography and reviews on a website that
               represents the personality of the author.
             </h2>
             <Link href="https://book-vendramini.herokuapp.com/" target="_blank">
