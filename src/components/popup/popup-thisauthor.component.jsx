@@ -5,6 +5,7 @@ import {
   PopUpContent,
   ModalImage,
   WebsiteButton,
+  Link,
 } from "./popup.styles";
 
 import { RubberBandDiv } from "../../animation";
@@ -29,7 +30,9 @@ const PopupThisAuthor = ({ close }) => (
               writer that exposes her books, biography and reviwes in an
               intuitive and visually pleasing website.
             </h2>
-            <WebsiteButton>View Website</WebsiteButton>
+            <Link href="https://book-vendramini.herokuapp.com/" target="_blank">
+              <WebsiteButton>View Website</WebsiteButton>
+            </Link>
           </ModalContent>
         </Modal>
       </RubberBandDiv>

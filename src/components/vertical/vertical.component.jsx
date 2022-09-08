@@ -21,7 +21,7 @@ const Vertical = () => {
 
       <LeftContainer>
         <VerticalLinks>
-          <a href="mailto:myvendramini@gmail.com?subject=travelwithme">
+          <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
             myvendramini@gmail.com
           </a>
         </VerticalLinks>

@@ -22,8 +22,8 @@ const Footer = () => {
             Contact
           </FooterLink>
         </FooterLinks>
-        <a href="mailto:myvendramini@gmail.com?subject=travelwithme">
-          myvendramini@gmail.com
+        <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
+          ramini@gmail.com
         </a>
       </FooterContainer>
     </Fragment>

@@ -5,6 +5,7 @@ import {
   PopUpContent,
   ModalImage,
   WebsiteButton,
+  Link,
 } from "./popup.styles";
 
 import { RubberBandDiv } from "../../animation";
@@ -29,7 +30,9 @@ const PopupTravelWithMe = ({ close }) => (
               those who worked with them. Also, there’s a blog where the client
               tells his experiences around the world.
             </h2>
-            <WebsiteButton>View Website</WebsiteButton>
+            <Link href="https://travel-withme.herokuapp.com/" target="_blank">
+              <WebsiteButton>View Website</WebsiteButton>
+            </Link>
           </ModalContent>
         </Modal>
       </RubberBandDiv>

@@ -8,7 +8,7 @@ const Contact = () => {
       </h1>
       <h3 data-aos={"fade-up"} data-aos-duration={"900"}>
         You can e-mail me at{" "}
-        <a href="mailto:myvendramini@gmail.com?subject=travelwithme">
+        <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
           myvendramini@gmail.com
         </a>{" "}
         or follow me on{" "}

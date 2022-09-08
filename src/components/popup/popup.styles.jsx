@@ -128,3 +128,5 @@ export const WebsiteButton = styled.button`
   justify-content: center;
   align-items: center;
 `;
+
+export const Link = styled.a``;

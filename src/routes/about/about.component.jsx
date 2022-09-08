@@ -103,7 +103,7 @@ const About = () => {
         </h4>
         <p data-aos={"fade-up"} data-aos-duration={"1000"}>
           You can e-mail me at{" "}
-          <a href="mailto:myvendramini@gmail.com?subject=travelwithme">
+          <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
             myvendramini@gmail.com
           </a>
           .

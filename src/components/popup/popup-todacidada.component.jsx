@@ -5,6 +5,7 @@ import {
   PopUpContent,
   ModalImage,
   WebsiteButton,
+  Link,
 } from "./popup.styles";
 
 import { RubberBandDiv } from "../../animation";
@@ -31,7 +32,9 @@ const PopupTodaCidada = ({ close }) => (
               understand their needs and transform their ideas into a visually
               pleasing, intuitive and easily accessible website.
             </h2>
-            <WebsiteButton>View Website</WebsiteButton>
+            <Link href="https://todacidada.com/" target="_blank">
+              <WebsiteButton>View Website</WebsiteButton>
+            </Link>
           </ModalContent>
         </Modal>
       </RubberBandDiv>
