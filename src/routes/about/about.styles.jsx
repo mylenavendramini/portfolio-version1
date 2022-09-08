@@ -167,7 +167,25 @@ export const Gray = styled.h3`
   }
 `;
 
-export const LinkedinLink = styled.a``;
+export const LinkedinLink = styled.a`
+  text-decoration: none;
+  /* padding: 1rem; */
+  position: absolute;
+  left: 1rem;
+  font-size: 1rem;
+  font-weight: 800;
+  transition: color 0.1s;
+  background-color: transparent;
+  color: var(--background);
+  outline: none;
+  text-shadow: none;
+  border: none;
+  cursor: pointer;
+
+  &:hover {
+    text-shadow: 0 0 1px var(--background);
+  }
+`;
 
 export const AboutGrid = styled.div`
   display: flex;
@@ -198,10 +216,6 @@ export const NavBarContainer = styled.div`
   position: fixed;
   z-index: 999;
   top: 0;
-
-  @media only screen and (max-width: 800px) {
-    display: none;
-  }
 
   h1 {
     display: none;
@@ -291,6 +305,8 @@ export const FooterContainer = styled.div`
     letter-spacing: 4px;
     background-color: var(--text-primary);
     color: var(--background);
+
+    justify-items: center;
   }
 
   @media only screen and (max-width: 800px) {
