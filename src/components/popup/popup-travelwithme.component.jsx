@@ -1,0 +1,40 @@
+import {
+  Modal,
+  ModalContent,
+  ModalClose,
+  PopUpContent,
+  ModalImage,
+  WebsiteButton,
+} from "./popup.styles";
+
+import { RubberBandDiv } from "../../animation";
+
+const PopupTravelWithMe = ({ close }) => (
+  <div>
+    <PopUpContent>
+      <RubberBandDiv>
+        <Modal>
+          <ModalClose onClick={close}>&times;</ModalClose>
+          <ModalImage>
+            <img
+              src="https://i.ibb.co/jJvH71y/Screenshot-2022-08-25-at-19-00-30.png"
+              alt="travel-with-me"
+            />
+          </ModalImage>
+          <ModalContent>
+            <h3>Travel With Me</h3>
+            <h2>
+              Website created because of my passion for traveling. In it, you
+              will find the services the client provides and testimonials from
+              those who worked with them. Also, there’s a blog where the client
+              tells his experiences around the world.
+            </h2>
+            <WebsiteButton>View Website</WebsiteButton>
+          </ModalContent>
+        </Modal>
+      </RubberBandDiv>
+    </PopUpContent>
+  </div>
+);
+
+export default PopupTravelWithMe;

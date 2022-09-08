@@ -1,0 +1,125 @@
+import styled from "styled-components";
+import Popup from "reactjs-popup";
+
+export const ProjectsContainer = styled.div`
+  padding: 10rem 4rem 10rem 4rem;
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: justify;
+    margin-bottom: 5rem;
+    letter-spacing: 2px;
+  }
+
+  h3 {
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 1.1rem;
+    font-weight: 100;
+    letter-spacing: 1px;
+    line-height: 30px;
+    text-align: justify;
+    padding: 1rem;
+  }
+
+  #projects {
+    color: var(--background);
+  }
+`;
+
+export const ProjectsGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+
+  @media only screen and (max-width: 1300px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const ProjectImage = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--text-primary);
+
+  &:hover {
+    box-shadow: 1px 3px;
+    h3 {
+      text-shadow: 0 0 1px var(--text-primary);
+    }
+  }
+
+  /* button {
+    display: flex;
+    opacity: 0;
+    position: absolute;
+    width: auto;
+    height: 50px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 4px;
+    transition: color 0.3s linear;
+    background-color: var(--text-primary);
+    color: var(--background);
+    padding: 0 2rem 0 2rem;
+    background-color: var(--background);
+    color: var(--text-primary);
+    border: none;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center; 
+  }*/
+`;
+
+export const PopUpButtom = styled.button`
+  /* color: red; */
+  /* background-color: green; */
+  /* font-size: 2rem; */
+  /* position: absolute; */
+  /* margin-left: 3rem; */
+  /* right: 50%; */
+  cursor: pointer;
+  padding: 1rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  border: none;
+`;
+
+export const StyledPopup = styled(Popup)`
+  // use your custom style for ".popup-overlay"
+  &-overlay {
+    /* background: rgba(0, 0, 0, 0.5); */
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(2px);
+  }
+  [data-popup="tooltip"].popup-overlay {
+  }
+
+  &-arrow {
+    display: none;
+  }
+`;
+
+export const Programs = styled.div`
+  display: flex;
+  align-self: center;
+
+  h4 {
+    padding: 0 1rem 0 1rem;
+    letter-spacing: 4px;
+  }
+`;
