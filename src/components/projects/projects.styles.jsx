@@ -4,6 +4,18 @@ import Popup from "reactjs-popup";
 export const ProjectsContainer = styled.div`
   padding: 10rem 4rem 10rem 4rem;
 
+  @media only screen and (max-width: 1050px) {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    padding: 1rem 0 1rem 0;
+  }
+
+  @media only screen and (max-width: 650px) {
+    padding: 4rem 0 0 0;
+  }
+
   h1 {
     font-size: 1.5rem;
     text-align: justify;
@@ -25,6 +37,10 @@ export const ProjectsContainer = styled.div`
     line-height: 30px;
     text-align: justify;
     padding: 1rem;
+
+    @media only screen and (max-width: 650px) {
+      font-weight: 600;
+    }
   }
 
   #projects {

@@ -3,6 +3,20 @@ import styled from "styled-components";
 export const ContactContainer = styled.div`
   padding: 8rem 4rem 14rem 4rem;
 
+  @media only screen and (max-width: 1050px) {
+    padding: 1rem 4rem 4rem 2rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    padding: 1rem 4rem 4rem 0;
+  }
+
+  @media only screen and (max-width: 650px) {
+    padding: 4rem 4rem 4rem 0;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
+  }
+
   h1 {
     font-size: 1.5rem;
     text-align: justify;

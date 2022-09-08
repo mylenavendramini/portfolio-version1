@@ -10,4 +10,8 @@ export const HomeContainer = styled.div`
   /* color: black; */
   color: var(--text-primary);
   margin: 0 4rem 0 4rem;
+
+  @media only screen and (max-width: 650px) {
+    margin: 0 2rem 0 2rem;
+  }
 `;
