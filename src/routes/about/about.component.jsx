@@ -117,12 +117,6 @@ const About = () => {
       </AboutContainer>
 
       <FooterContainer>
-        <LinkedinLink
-          href="https://www.linkedin.com/in/mylena-vendramini-0ba475229/"
-          target="_blank"
-        >
-          in
-        </LinkedinLink>
         <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
           myvendramini@gmail.com
         </a>
