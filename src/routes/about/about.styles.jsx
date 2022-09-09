@@ -285,7 +285,7 @@ export const NavLink = styled(Link)`
 
 export const FooterContainer = styled.div`
   padding: 1rem;
-  height: 10vh;
+  height: 8vh;
   width: 100%;
   display: none;
   margin-right: 5rem;
