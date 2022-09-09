@@ -14,7 +14,7 @@ export const AboutContainer = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 5rem 0 0 0;
+    padding: 3rem 0 0 0;
     margin: 0 2rem 0 2rem;
   }
 
@@ -40,7 +40,7 @@ export const AboutContainer = styled.div`
     font-weight: 500;
 
     @media only screen and (max-width: 650px) {
-      margin-top: 5rem;
+      margin-top: 3rem;
     }
   }
 
