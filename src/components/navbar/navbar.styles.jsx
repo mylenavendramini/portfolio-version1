@@ -55,7 +55,7 @@ export const Logo = styled.div`
     color: var(--background);
 
     @media only screen and (max-width: 800px) {
-      padding-left: 1.5rem;
+      padding-left: 2.5rem;
     }
   }
 `;
