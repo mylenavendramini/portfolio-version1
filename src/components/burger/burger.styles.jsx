@@ -6,8 +6,8 @@ export const StyledBurger = styled.button`
   @media only screen and (max-width: 800px) {
     display: flex;
     position: absolute;
-    top: 1.4rem;
-    left: 2rem;
+    top: 1.3rem;
+    left: 1rem;
     flex-direction: column;
     justify-content: space-around;
     width: 2rem;

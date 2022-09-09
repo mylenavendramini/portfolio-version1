@@ -53,6 +53,10 @@ export const Logo = styled.div`
     text-decoration: none;
     background-color: var(--text-primary);
     color: var(--background);
+
+    @media only screen and (max-width: 800px) {
+      padding-left: 1.5rem;
+    }
   }
 `;
 
