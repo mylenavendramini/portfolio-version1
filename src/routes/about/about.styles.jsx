@@ -96,10 +96,11 @@ export const AboutContainer = styled.div`
     line-height: 40px;
     letter-spacing: 1px;
     font-weight: 500;
+    background-color: var(--background);
 
     @media only screen and (max-width: 1050px) {
-      margin-bottom: 23rem;
-      margin-top: 3rem;
+      padding-bottom: 12rem;
+      padding-top: 1rem;
       text-align: left;
     }
 
@@ -107,6 +108,15 @@ export const AboutContainer = styled.div`
       /* color: var(--text-secondary); */
       font-size: 1.3rem;
       letter-spacing: 2px;
+    }
+  }
+
+  #aboutme {
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+
+    @media only screen and (max-width: 1150px) {
+      margin-bottom: -5rem;
     }
   }
 
@@ -255,8 +265,6 @@ export const Logo = styled.div`
   }
 `;
 
-export const Home = styled.div``;
-
 export const NavLinks = styled.div`
   text-align: center;
 
@@ -272,24 +280,12 @@ export const NavLinks = styled.div`
 `;
 
 export const NavLink = styled(Link)`
-  /* text-decoration: none;
-  padding: 0.5rem;
-  text-transform: uppercase;
-  letter-spacing: 4px;
-  padding-left: 2.5rem;
-  background-color: var(--text-primary);
-  color: var(--background); */
   cursor: pointer;
-`;
-
-export const Button = styled.button`
-  background-color: transparent;
-  border: none;
 `;
 
 export const FooterContainer = styled.div`
   padding: 1rem;
-  height: 8vh;
+  height: 10vh;
   width: 100%;
   display: none;
   margin-right: 5rem;
@@ -305,7 +301,6 @@ export const FooterContainer = styled.div`
     letter-spacing: 4px;
     background-color: var(--text-primary);
     color: var(--background);
-
     justify-items: center;
   }
 

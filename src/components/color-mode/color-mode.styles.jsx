@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const LabelColorMode = styled.label`
   position: relative;
   display: inline-block;
-  width: 42px;
+  width: 46px;
   height: 26px;
   margin-right: 3rem;
   background-color: var(--text-primary);

@@ -4,15 +4,21 @@ import { useOnClickOutside } from "../../hooks";
 import {
   NavBarContainer,
   Logo,
-  LogoAbout,
   NavLinks,
   NavLink,
   AboutLink,
 } from "./navbar.styles";
 
+import Burger from "../../components/burger/burger.component";
+import Menu from "../../components/menu/menu.component";
+
 const NavBar = () => {
   //burger
   const node = useRef();
+  useOnClickOutside(node, () => {
+    setIsBurgerOpen(false);
+  });
+  const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
   return (
     <Fragment>
@@ -20,10 +26,6 @@ const NavBar = () => {
         <Logo>
           <a href="/">MV</a>
         </Logo>
-
-        <LogoAbout>
-          <a href="/about">MV</a>
-        </LogoAbout>
 
         <NavLinks>
           <a href="/about">About</a>
@@ -34,7 +36,13 @@ const NavBar = () => {
             Contact
           </NavLink>
         </NavLinks>
-        <AboutLink href="/about">ABOUT</AboutLink>
+        <div ref={node}>
+          <Burger
+            isBurgerOpen={isBurgerOpen}
+            setIsBurgerOpen={setIsBurgerOpen}
+          />
+          <Menu isBurgerOpen={isBurgerOpen} setIsBurgerOpen={setIsBurgerOpen} />
+        </div>
       </NavBarContainer>
 
       {/*     <Outlet />*/}
