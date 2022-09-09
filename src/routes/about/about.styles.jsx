@@ -14,7 +14,7 @@ export const AboutContainer = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 3rem 0 0 0;
+    padding: 2.8rem 0 0 0;
     margin: 0 2rem 0 2rem;
   }
 
@@ -22,6 +22,10 @@ export const AboutContainer = styled.div`
     font-size: 1.8rem;
     display: inline;
     letter-spacing: 2px;
+
+    @media only screen and (max-width: 650px) {
+      font-size: 1.6rem;
+    }
   }
 
   h3 {
@@ -41,6 +45,7 @@ export const AboutContainer = styled.div`
 
     @media only screen and (max-width: 650px) {
       margin-top: 3rem;
+      font-size: 1.4rem;
     }
   }
 
@@ -181,7 +186,6 @@ export const LinkedinLink = styled.a`
   text-decoration: none;
   /* padding: 1rem; */
   position: absolute;
-  left: 1rem;
   font-size: 1rem;
   font-weight: 800;
   transition: color 0.1s;
