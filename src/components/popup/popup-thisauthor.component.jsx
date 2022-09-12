@@ -18,7 +18,7 @@ const PopupThisAuthor = ({ close }) => (
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
             <img
-              src="https://i.ibb.co/7t90dW2/Screenshot-2022-08-25-at-18-59-20.png"
+              src="https://i.ibb.co/qd0KT7z/Screenshot-2022-09-12-at-15-54-07.png"
               alt="this-author"
             />
           </ModalImage>
