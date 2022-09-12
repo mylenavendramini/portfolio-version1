@@ -79,18 +79,32 @@ const About = () => {
           coffee.
         </h5>
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
-          Here are a few technologies I’ve been working with recently:
+          Take a look at my main skills:
         </h4>
         <AboutGrid
           data-aos={"fade-up"}
           data-aos-duration={"1000"}
           data-aos-delay={"100"}
         >
-          <h5>&#10143; JavaScript (ES6+)</h5>
-          <h5>&#10143; React</h5>
-          <h5>&#10143; Node.js</h5>
-          <h5>&#10143; TypeScript</h5>
-          <h5>&#10143; MongoDB</h5>
+          <div>
+            <h5>&#10143; Frontend</h5>
+            <h5>&#10143; UX/UI</h5>
+          </div>
+          <div>
+            <h5>&#10143; JavaScript (ES6+)</h5>
+            <h5>&#10143; HTML</h5>
+            <h5>&#10143; CSS</h5>
+            <h5>&#10143; React</h5>
+          </div>
+          <div>
+            <h5>&#10143; Node.js</h5>
+            <h5>&#10143; Handlebars.js</h5>
+          </div>
+          <div>
+            <h5>&#10143; TypeScript</h5>
+            <h5>&#10143; MongoDB</h5>
+            <h5>&#10143; Figma</h5>
+          </div>
         </AboutGrid>
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
           Languages I speak fluent:

@@ -202,11 +202,13 @@ export const LinkedinLink = styled.a`
 `;
 
 export const AboutGrid = styled.div`
-  display: flex;
+  display: grid;
   align-self: center;
+  grid-template-columns: repeat(4, 1fr);
 
   h5 {
-    padding: 0 5rem 0 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
   }
 
   @media only screen and (max-width: 1350px) {
