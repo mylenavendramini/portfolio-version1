@@ -79,7 +79,7 @@ const About = () => {
           coffee.
         </h5>
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
-          Take a look at my main skills:
+          TESTE!!! Take a look at my main skills:
         </h4>
         <AboutGrid
           data-aos={"fade-up"}
