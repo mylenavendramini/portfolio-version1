@@ -18,7 +18,7 @@ const PopupTodaCidada = ({ close }) => (
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
             <img
-              src="https://i.ibb.co/znGbXPj/Screenshot-2022-09-12-at-15-48-54.png"
+              src="https://i.ibb.co/5Trjts5/todacidada.png"
               alt="toda-cidada"
             />
           </ModalImage>
