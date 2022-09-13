@@ -18,7 +18,7 @@ const PopupTravelWithMe = ({ close }) => (
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
             <img
-              src="https://i.ibb.co/K0WCh7Y/Screenshot-2022-09-12-at-15-49-2.jpg"
+              src="https://i.ibb.co/j65Md3P/travelwithme.jpg"
               alt="travel-with-me"
             />
           </ModalImage>
