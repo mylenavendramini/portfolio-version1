@@ -39,8 +39,9 @@ const About = () => {
           data-aos-duration={"2000"}
           data-aos-delay={"500"}
         >
-          Click <a href="/cv">here</a> to take a look at my CV.
+          Click <a href="/resume.pdf">here</a> to take a look at my CV.
         </h1>
+
         <h6
           data-aos={"fade-up"}
           data-aos-duration={"2000"}
