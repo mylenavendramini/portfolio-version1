@@ -25,7 +25,7 @@ const PopupTodaCidada = ({ close }) => (
           <ModalContent>
             <h3>Toda Cidadã</h3>
             <h2>
-              I’m the responsable for the whole webpage of Toda Cidadã, an
+              I’m responsible for the whole webpage of Toda Cidadã, an
               organization that aims to promote debates about politics,
               economics and constitutional rights. I’ve been working with them
               since january of 2022, where I learned to work with a client,

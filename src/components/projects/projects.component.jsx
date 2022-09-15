@@ -25,7 +25,7 @@ const Projects = () => {
               <PopUpButtom>
                 <h3>Toda Cidadã</h3>
                 <h2>
-                  I’m the responsable for the whole webpage of Toda Cidadã, an
+                  I’m responsible for the whole webpage of Toda Cidadã, an
                   organization that aims to promote debates about politics,
                   economics and constitutional rights. I’ve been working with
                   them since january of 2022, where I learned to work with a
@@ -72,7 +72,7 @@ const Projects = () => {
                   First website I created using React JS and when I learned how
                   relevant and brilliant this library is. The client is an
                   author who exposes her books, biography and reviews on a
-                  website that represents the personality of the author.
+                  website that really represents her personality.
                 </h2>
                 <Programs>
                   <h4>REACT</h4>
