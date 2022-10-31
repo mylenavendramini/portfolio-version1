@@ -28,7 +28,7 @@ const Vertical = () => {
       </LeftContainer>
 
       <LinkedinLink
-        href="https://www.linkedin.com/in/mylena-vendramini-frontenddeveloper/"
+        href="https://www.linkedin.com/in/mylenavendramini/"
         target="_blank"
       >
         in

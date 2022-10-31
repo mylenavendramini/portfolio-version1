@@ -13,7 +13,7 @@ const Contact = () => {
         </a>{" "}
         or follow me on{" "}
         <LinkedinLink
-          href="https://www.linkedin.com/in/mylena-vendramini-frontenddeveloper/"
+          href="hhttps://www.linkedin.com/in/mylenavendramini/"
           target="_blank"
         >
           Social Media

@@ -52,7 +52,7 @@ const About = () => {
           data-aos-delay={"500"}
         >
           <LinkedinLink
-            href="https://www.linkedin.com/in/mylena-vendramini-frontenddeveloper/"
+            href="https://www.linkedin.com/in/mylenavendramini/"
             target="_blank"
           >
             in
