@@ -6,8 +6,9 @@ export const LabelColorMode = styled.label`
   width: 46px;
   height: 26px;
   margin-right: 3rem;
-  background-color: var(--text-primary);
-  color: var(--background);
+  /* background-color: var(--text-primary); */
+  background-color: transparent;
+  /* color: var(--background); */
 
   @media only screen and (max-width: 800px) {
     /* position: absolute; */
@@ -23,13 +24,24 @@ export const SpanColorMode = styled.span`
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: #ccc;
+  /* background-color: #ccc; */
+  background-color: transparent;
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  border-radius: 34px;
+
+  img {
+    width: 80%;
+    :first-child {
+      background-color: var(--text-primary);
+    }
+
+    :last-child {
+      background-color: var(--text-primary);
+    }
+  }
 
   &:before {
-    position: absolute;
+    /* position: absolute;
     content: "";
     height: 20px;
     width: 20px;
@@ -39,12 +51,13 @@ export const SpanColorMode = styled.span`
     -webkit-transition: 0.4s;
     transition: 0.4s;
     border-radius: 50%;
-    background-color: white;
+    background-color: white; */
   }
 `;
 
 export const InputColorMode = styled.input`
-  opacity: 0;
+  background-color: transparent;
+  /* opacity: 0;
   width: 0;
   height: 0;
 
@@ -60,5 +73,5 @@ export const InputColorMode = styled.input`
     -webkit-transform: translateX(16px);
     -ms-transform: translateX(16px);
     transform: translateX(16px);
-  }
+  } */
 `;
