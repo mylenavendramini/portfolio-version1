@@ -1,12 +1,11 @@
-import React, { Fragment } from "react";
+import React from "react";
 import {
-  PostsContainer,
+
   PostContent,
   PostImage,
   GaleryPosts,
   ContainerWithSideBar,
   GaleryImage,
-  Logo,
 } from "./posts.styles";
 import { useParams } from "react-router-dom";
 import { getPost, getAllPosts } from "../../posts.data";
@@ -29,6 +28,8 @@ const DevPost = () => {
   const scrollToTop = () => {
     window.scrollTo(0, 0);
   };
+
+   
 
   return (
     <div>
@@ -64,6 +65,7 @@ const DevPost = () => {
           </a>{" "}
         </PostContent>
       </ContainerWithSideBar>
+      
     </div>
   );
 };
