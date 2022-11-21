@@ -15,6 +15,7 @@ const Contact = () => {
         <LinkedinLink
           href="hhttps://www.linkedin.com/in/mylenavendramini/"
           target="_blank"
+          rel="noreferrer"
         >
           Social Media
         </LinkedinLink>

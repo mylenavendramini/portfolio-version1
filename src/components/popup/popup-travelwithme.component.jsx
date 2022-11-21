@@ -30,7 +30,11 @@ const PopupTravelWithMe = ({ close }) => (
               who worked with him. Also, there’s a blog where he can talk about
               his experiences around the world.
             </h2>
-            <Link href="https://travel-withme.herokuapp.com/" target="_blank">
+            <Link
+              href="https://travel-withme.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <WebsiteButton>View Website</WebsiteButton>
             </Link>
           </ModalContent>

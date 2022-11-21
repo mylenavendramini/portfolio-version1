@@ -30,6 +30,7 @@ const Vertical = () => {
       <LinkedinLink
         href="https://www.linkedin.com/in/mylenavendramini/"
         target="_blank"
+        rel="noreferrer"
       >
         in
       </LinkedinLink>

@@ -14,6 +14,7 @@ const Burger = ({ isBurgerOpen, setIsBurgerOpen }) => {
     </StyledBurger>
   );
 };
+
 Burger.propTypes = {
   isBurgerOpen: bool.isRequired,
   setIsBurgerOpen: func.isRequired,

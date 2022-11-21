@@ -30,7 +30,11 @@ const PopupThisAuthor = ({ close }) => (
               who exposes her books, biography and reviews on a website that
               really represents her personality.
             </h2>
-            <Link href="https://book-vendramini.herokuapp.com/" target="_blank">
+            <Link
+              href="https://book-vendramini.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <WebsiteButton>View Website</WebsiteButton>
             </Link>
           </ModalContent>

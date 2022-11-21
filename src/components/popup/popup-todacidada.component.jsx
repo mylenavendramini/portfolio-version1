@@ -32,7 +32,11 @@ const PopupTodaCidada = ({ close }) => (
               understand his needs and transform his ideas into a intuitive and
               easily accessible website.
             </h2>
-            <Link href="https://todacidada.com/" target="_blank">
+            <Link
+              href="https://todacidada.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <WebsiteButton>View Website</WebsiteButton>
             </Link>
           </ModalContent>

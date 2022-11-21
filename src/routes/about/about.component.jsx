@@ -40,7 +40,7 @@ const About = () => {
           data-aos-delay={"500"}
         >
           Click{" "}
-          <a href="/resume.pdf" target="_blank">
+          <a href="/resume.pdf" target="_blank" rel="noreferrer">
             here
           </a>{" "}
           to take a look at my CV.
@@ -54,6 +54,7 @@ const About = () => {
           <LinkedinLink
             href="https://www.linkedin.com/in/mylenavendramini/"
             target="_blank"
+            rel="noreferrer"
           >
             in
           </LinkedinLink>
