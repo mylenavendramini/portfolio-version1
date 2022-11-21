@@ -31,7 +31,7 @@ const PopupThisAuthor = ({ close }) => (
               really represents her personality.
             </h2>
             <Link
-              href="https://book-vendramini.herokuapp.com/"
+              href="https://this-author.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
