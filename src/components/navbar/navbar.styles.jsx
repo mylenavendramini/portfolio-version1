@@ -107,3 +107,6 @@ export const AboutLink = styled.a`
     display: flex;
   }
 `;
+export const LinkToAbout = styled(Link)`
+  cursor: pointer;
+`;

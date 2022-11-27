@@ -16,11 +16,13 @@ import { Fragment } from "react";
 const About = () => {
   return (
     <Fragment>
-      <NavBarContainer>
-        <Logo>
-          <a href="/">MV</a>
-        </Logo>
-      </NavBarContainer>
+      {
+        <NavBarContainer>
+          <Logo>
+            <a href="/">MV</a>
+          </Logo>
+        </NavBarContainer>
+      }
 
       <AboutContainer>
         <FadeIn5Div>
@@ -125,7 +127,7 @@ const About = () => {
           <h5>&#10143; pt-BR Português</h5>
         </AboutGrid>
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
-          Interested in working with me?
+          Let's make your website!
         </h4>
         <p data-aos={"fade-up"} data-aos-duration={"1000"}>
           You can e-mail me at{" "}

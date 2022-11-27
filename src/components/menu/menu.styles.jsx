@@ -42,6 +42,7 @@ export const StyledMenu = styled.nav`
     padding: 1rem;
     outline: none;
     text-shadow: none;
+    cursor: pointer;
 
     &:hover {
       text-shadow: 0 0 2px var(--background);
@@ -52,15 +53,16 @@ export const StyledMenu = styled.nav`
 export const Logo = styled.div`
   background-color: transparent;
   margin-bottom: 5rem;
-  a {
-    font-family: "Pacifico", cursive;
-    font-size: 1.3rem;
-    text-align: center;
-    text-decoration: none;
-    color: var(--background);
-  }
 `;
 
 export const NavLink = styled(Link)`
+  cursor: pointer;
+`;
+
+export const LogoLink = styled(Link)`
+  cursor: pointer;
+`;
+
+export const AboutLink = styled(Link)`
   cursor: pointer;
 `;

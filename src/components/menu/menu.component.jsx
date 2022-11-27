@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { StyledMenu, Logo, NavLink } from "./menu.styles";
+import { StyledMenu, Logo, LogoLink } from "./menu.styles";
 import { bool } from "prop-types";
 
 // import { TadaAnimation } from "../../animation";
@@ -9,7 +9,7 @@ const Menu = ({ isBurgerOpen }) => {
     <Fragment>
       <StyledMenu isBurgerOpen={isBurgerOpen}>
         <Logo>
-          <a href="/">MV</a>
+          <LogoLink to="/">MV</LogoLink>
         </Logo>
 
         <a href="/about">About</a>
