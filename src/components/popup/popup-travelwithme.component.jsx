@@ -18,17 +18,14 @@ const PopupTravelWithMe = ({ close }) => (
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
             <img
-              src="https://i.ibb.co/j65Md3P/travelwithme.jpg"
+              src="https://i.ibb.co/MZ6Njy8/travelwithme-responsive.png"
               alt="travel-with-me"
             />
           </ModalImage>
           <ModalContent>
             <h3>Travel With Me</h3>
             <h2>
-              Website created because of my passion for travelling. You will
-              find the services the client provides and testimonials from those
-              who worked with him. Also, there’s a blog where he can talk about
-              his experiences around the world.
+              Fully responsive and beautiful website of a travel organizer.
             </h2>
             <Link
               href="https://travelwithme-agency.netlify.app/"

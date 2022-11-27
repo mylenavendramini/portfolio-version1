@@ -25,12 +25,9 @@ const PopupTodaCidada = ({ close }) => (
           <ModalContent>
             <h3>Toda Cidadã</h3>
             <h2>
-              I’m responsible for the whole webpage of Toda Cidadã, an
-              organization that aims to promote debates about politics,
-              economics and constitutional rights. I’ve been working with them
-              since january of 2022, where I learned to work with a client,
-              understand his needs and transform his ideas into a intuitive and
-              easily accessible website.
+              An intuitive and easily accessible website of an NGO that aims to
+              promote debates about politics, economics and constitutional
+              rights.
             </h2>
             <Link
               href="https://todacidada.com/"

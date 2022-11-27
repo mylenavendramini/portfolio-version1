@@ -25,10 +25,8 @@ const PopupThisAuthor = ({ close }) => (
           <ModalContent>
             <h3>This Author</h3>
             <h2>
-              First website I created using React JS and when I learned how
-              relevant and brilliant this library is. The client is an author
-              who exposes her books, biography and reviews on a website that
-              really represents her personality.
+              Exhibition of the author's books, biography and reviews on a
+              website that really represents her personality.
             </h2>
             <Link
               href="https://this-author.netlify.app/"
