@@ -31,7 +31,7 @@ const PopupTravelWithMe = ({ close }) => (
               his experiences around the world.
             </h2>
             <Link
-              href="https://travel-withme.herokuapp.com/"
+              href="https://travelwithme-agency.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
