@@ -11,7 +11,7 @@ export const SkillsContainer = styled.div`
 
   @media only screen and (max-width: 950px) {
     padding: 1rem 0 1rem 0;
-    margin-bottom: 8rem;
+    margin-bottom: 5rem;
   }
 
   @media only screen and (max-width: 650px) {
