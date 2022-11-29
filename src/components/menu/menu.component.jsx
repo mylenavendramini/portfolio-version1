@@ -9,7 +9,7 @@ const Menu = ({ isBurgerOpen }) => {
     <Fragment>
       <StyledMenu isBurgerOpen={isBurgerOpen}>
         <Logo>
-          <LogoLink to="/">MV </LogoLink>
+          <a href="/">MV </a>
         </Logo>
 
         <a href="/about">About</a>
