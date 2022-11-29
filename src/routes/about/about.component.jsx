@@ -16,14 +16,6 @@ import { Fragment } from "react";
 const About = () => {
   return (
     <Fragment>
-      {
-        <NavBarContainer>
-          <Logo>
-            <a href="/">MV</a>
-          </Logo>
-        </NavBarContainer>
-      }
-
       <AboutContainer>
         <FadeIn5Div>
           <PulseDiv>
@@ -93,9 +85,10 @@ const About = () => {
           At the same time, I started to learn React, which I use in almost all
           my websites today. I'm currently developing my TypeScript skills and
           making some cool websites as a freelancer. I really love what I do.
-          <br /> In my free time, I love to travel (I was a digital nomad for a
-          year 🛫), writing (sometimes I like to write fictional stories 📝) and
-          a good coffee (always ☕️).
+          <br /> <br />
+          In my free time, I love to travel (I was a digital nomad for a year
+          🛫), writing (sometimes I like to write fictional stories 📝) and a
+          good coffee (always ☕️).
         </h5>
 
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
