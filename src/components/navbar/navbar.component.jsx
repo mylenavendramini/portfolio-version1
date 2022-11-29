@@ -1,7 +1,13 @@
 import { useRef, useState, Fragment } from "react";
 import { useOnClickOutside } from "../../hooks";
 
-import { NavBarContainer, Logo, NavLinks, NavLink } from "./navbar.styles";
+import {
+  NavBarContainer,
+  Logo,
+  NavLinks,
+  NavLink,
+  LinkToAbout,
+} from "./navbar.styles";
 
 import Burger from "../../components/burger/burger.component";
 import Menu from "../../components/menu/menu.component";
@@ -22,10 +28,11 @@ const NavBar = () => {
         </Logo>
 
         <NavLinks>
-          {/*<LinkToAbout to="/about">About</LinkToAbout>*/}
+          <a href="/about">About</a>
           <NavLink to="projects" spy={true} smooth={true}>
             Projects
           </NavLink>
+          <a href="/skills">Skills</a>
           <NavLink to="contact" spy={true} smooth={true}>
             Contact
           </NavLink>

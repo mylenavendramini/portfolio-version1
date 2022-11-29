@@ -23,7 +23,7 @@ export const PresentationContainer = styled.div`
   h3 {
     font-size: 1.5rem;
     line-height: 30px;
-    letter-spacing: 2px;
+    letter-spacing: 0.5px;
 
     @media only screen and (max-width: 1200px) {
       font-size: 1.2rem;
@@ -36,7 +36,7 @@ export const PresentationContainer = styled.div`
 
   h2 {
     font-size: 2rem;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
     line-height: 30px;
 
     @media only screen and (max-width: 1200px) {
@@ -90,7 +90,7 @@ export const PresentationContainer = styled.div`
     font-size: 1.5rem;
     line-height: 30px;
     margin-top: -3rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-right: 5rem;
 
     @media only screen and (max-width: 1350px) {

@@ -14,7 +14,6 @@ const Presentation = () => {
       <FadeInDiv>
         <h3>Hi, my name is</h3>
       </FadeInDiv>
-
       <FadeIn5Div>
         {" "}
         <h2>MYLENA VENDRAMINI.</h2>
@@ -24,13 +23,11 @@ const Presentation = () => {
         {" "}
         <h3>I'm a</h3>
       </FadeIn8Div>
-
       <PulseDiv>
         {" "}
         <Gradient>FRONT-END DEVELOPER</Gradient>
         <h6>FRONT-END DEVELOPER</h6>
       </PulseDiv>
-
       <FadeIn10Div>
         {" "}
         <h5>

@@ -13,6 +13,7 @@ const Menu = ({ isBurgerOpen }) => {
         </Logo>
 
         <a href="/about">About</a>
+        <a href="/skills">Skills</a>
       </StyledMenu>
     </Fragment>
   );

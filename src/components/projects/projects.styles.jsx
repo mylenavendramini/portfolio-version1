@@ -20,7 +20,7 @@ export const ProjectsContainer = styled.div`
     font-size: 1.5rem;
     text-align: justify;
     margin-bottom: 5rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   h3 {

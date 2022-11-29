@@ -1,37 +1,21 @@
 import styled from "styled-components";
 import { Link } from "react-scroll";
 
-export const AboutContainer = styled.div`
-  padding: 10rem 4rem 10rem 4rem;
+export const SkillsContainer = styled.div`
+  padding: 2rem 4rem 2rem 4rem;
   margin: 0 4rem 0 4rem;
 
   @media only screen and (max-width: 1050px) {
-    padding: 10rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
   }
 
   @media only screen and (max-width: 950px) {
-    padding: 10rem 0 1rem 0;
+    padding: 1rem 0 1rem 0;
+    margin-bottom: 8rem;
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 2.8rem 0 0 0;
-    margin: 0 2rem 0 2rem;
-  }
-
-  h2 {
-    font-size: 1.8rem;
-    display: inline;
-    letter-spacing: 2px;
-
-    @media only screen and (max-width: 650px) {
-      font-size: 1.6rem;
-    }
-  }
-
-  h3 {
-    font-size: 2rem;
-    font-weight: 800;
-    display: inline;
+    padding: 3rem 0rem 0 1rem;
   }
 
   h1 {
@@ -73,8 +57,7 @@ export const AboutContainer = styled.div`
   h4 {
     font-size: 1.5rem;
     text-align: justify;
-    letter-spacing: 1px;
-    margin-top: 12rem;
+    letter-spacing: 2px;
   }
 
   h5 {
@@ -99,7 +82,7 @@ export const AboutContainer = styled.div`
     margin-bottom: 5rem;
     font-size: 1.3rem;
     line-height: 40px;
-    letter-spacing: 0.5px;
+    letter-spacing: 1px;
     font-weight: 500;
     background-color: var(--background);
 
@@ -113,15 +96,6 @@ export const AboutContainer = styled.div`
       /* color: var(--text-secondary); */
       font-size: 1.3rem;
       letter-spacing: 2px;
-    }
-  }
-
-  #aboutme {
-    padding-bottom: 0rem;
-    margin-bottom: 0rem;
-
-    @media only screen and (max-width: 1150px) {
-      margin-bottom: -5rem;
     }
   }
 
@@ -140,68 +114,7 @@ export const AboutContainer = styled.div`
   }
 `;
 
-export const ScrollDown = styled(Link)`
-  h6 {
-    text-align: center;
-    cursor: pointer;
-    font-size: 1.3rem;
-    line-height: 30px;
-    letter-spacing: 1px;
-    font-weight: 500;
-    color: var(--text-primary);
-    transition: color 0.2s;
-
-    @media only screen and (max-width: 650px) {
-      margin-top: 4rem;
-    }
-
-    &:hover {
-      color: var(--text-secondary);
-    }
-  }
-`;
-
-export const Gray = styled.h3`
-  background: linear-gradient(
-    to right,
-    var(--text-secondary) 20%,
-    var(--text-primary) 40%,
-    var(--text-secondary) 60%,
-    var(--text-primary) 80%
-  );
-  background-size: 200% auto;
-  background-clip: text;
-  /* text-fill-color: transparent; */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: shine 5s ease-in-out infinite;
-  @keyframes shine {
-    to {
-      background-position: 100% center;
-    }
-  }
-`;
-
-export const LinkedinLink = styled.a`
-  text-decoration: none;
-  /* padding: 1rem; */
-  position: absolute;
-  font-size: 1rem;
-  font-weight: 800;
-  transition: color 0.1s;
-  background-color: transparent;
-  color: var(--background);
-  outline: none;
-  text-shadow: none;
-  border: none;
-  cursor: pointer;
-
-  &:hover {
-    text-shadow: 0 0 1px var(--background);
-  }
-`;
-
-export const AboutGrid = styled.div`
+export const SkillsGrid = styled.div`
   display: grid;
   align-self: center;
   grid-template-columns: repeat(4, 1fr);

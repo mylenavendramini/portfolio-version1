@@ -19,6 +19,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./routes/about/about.component";
 import NotFound from "./routes/notFound/not-found.component";
+import Skills from "./routes/skills/skills.component";
 
 function App() {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -52,6 +53,7 @@ function App() {
       </NavBarContainer>
       <Routes>
         <Route path="/about" element={<About />} />
+        <Route path="/skills" element={<Skills />} />
         <Route path="*" element={<NotFound />} />
         <Route
           path="/"

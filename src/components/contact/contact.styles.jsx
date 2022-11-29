@@ -21,13 +21,13 @@ export const ContactContainer = styled.div`
     font-size: 1.5rem;
     text-align: justify;
     margin-bottom: 4rem;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
   }
 
   h3 {
     font-size: 1.5rem;
     line-height: 30px;
-    letter-spacing: 1px;
+    letter-spacing: 0.5px;
     font-weight: 500;
 
     @media only screen and (max-width: 1200px) {
