@@ -62,34 +62,44 @@ const About = () => {
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
           A little more about me:
         </h4>
-        <h5
-          data-aos={"fade-up"}
-          data-aos-duration={"1000"}
-          data-aos-delay={"100"}
-        >
-          I'm from Brazil, currently based in London.
-          <br />
-          <br />I graduated in Law in the year 2017 and after a few years
-          working in the field, I understood that I had to work with something I{" "}
-          <i>truly love</i>
-          .
-          <br />
-          <br />
-          That's when I discovered my passion for coding and since then, I've
-          specialized in JavaScript and made some websites for fun. After a few
-          months, I had the opportunity to start working with an NGO that aims
-          to promote debates about politics, economics and constitutional
-          rights.
-          <br />
-          <br />
-          At the same time, I started to learn React, which I use in almost all
-          my websites today. I'm currently developing my TypeScript skills and
-          making some cool websites as a freelancer. I really love what I do.
-          <br /> <br />
-          In my free time, I love to travel (I was a digital nomad for a year
-          🛫), writing (sometimes I like to write fictional stories 📝) and a
-          good coffee (always ☕️).
-        </h5>
+        <AboutGrid>
+          <h5
+            data-aos={"fade-up"}
+            data-aos-duration={"1000"}
+            data-aos-delay={"100"}
+          >
+            I'm from Brazil, currently based in London.
+            <br />
+            <br />I graduated in Law in the year 2017 and after a few years
+            working in the field, I understood that I had to work with something
+            I <i>truly love</i>
+            .
+            <br />
+            <br />
+            That's when I discovered my passion for coding and since then, I've
+            specialized in JavaScript and made some websites for fun. After a
+            few months, I had the opportunity to start working with an NGO that
+            aims to promote debates about politics, economics and constitutional
+            rights.
+            <br />
+            <br />
+            At the same time, I started to learn React, which I use in almost
+            all my websites today. I'm currently developing my TypeScript skills
+            and making some cool websites as a freelancer. I really love what I
+            do.
+            <br /> <br />
+            In my free time, I love to travel (I was a digital nomad for a year
+            🛫), writing (sometimes I like to write fictional stories 📝) and a
+            good coffee (always ☕️).
+          </h5>
+          <img
+            data-aos={"fade-up"}
+            data-aos-duration={"1000"}
+            data-aos-delay={"100"}
+            src="/profile-picture.png"
+            alt="profilePicture"
+          />
+        </AboutGrid>
 
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
           Do you have any questions or would you like to talk about work?

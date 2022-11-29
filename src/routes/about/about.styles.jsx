@@ -204,11 +204,16 @@ export const LinkedinLink = styled.a`
 export const AboutGrid = styled.div`
   display: grid;
   align-self: center;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
 
   h5 {
     margin-top: 1rem;
     margin-bottom: 1rem;
+  }
+
+  img {
+    width: 100%;
   }
 
   @media only screen and (max-width: 1350px) {
@@ -216,7 +221,7 @@ export const AboutGrid = styled.div`
 
     h5 {
       padding: 0rem;
-      margin: 0 1rem 1rem 1rem;
+      margin: 1rem 1rem 1rem 1rem;
     }
   }
 `;
