@@ -2,9 +2,6 @@
 <br />
 <div align="center">
   <h1 align="center">Mylena Vendramini Portfolio</h1>
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="https://i.ibb.co/MZ6Njy8/travelwithme-responsive.png" alt="Logo" width="80%" height="auto">
-  </a>
   
 
   <p align="center">
