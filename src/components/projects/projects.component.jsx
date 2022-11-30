@@ -10,6 +10,7 @@ import {
 import PopupThisAuthor from "../popup/popup-thisauthor.component";
 import PopupTodaCidada from "../popup/popup-todacidada.component";
 import PopupTravelWithMe from "../popup/popup-travelwithme.component";
+import PopupNutritionist from "../popup/popup-nutritionist.component";
 
 const Projects = () => {
   return (
@@ -36,6 +37,24 @@ const Projects = () => {
             }
           >
             {(close) => <PopupTodaCidada close={close} />}
+          </StyledPopup>
+        </ProjectImage>
+
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <StyledPopup
+            trigger={
+              <PopUpButtom>
+                <h3>Nutritionist</h3>
+                <h2>
+                  Beautiful, intuitive and responsive website of a nutritionist.
+                </h2>
+                <Programs>
+                  <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4>
+                </Programs>
+              </PopUpButtom>
+            }
+          >
+            {(close) => <PopupNutritionist close={close} />}
           </StyledPopup>
         </ProjectImage>
 
