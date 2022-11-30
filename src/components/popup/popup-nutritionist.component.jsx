@@ -28,7 +28,7 @@ const PopupNutritionist = ({ close }) => (
               Beautiful, intuitive and responsive website of a nutritionist.
             </h2>
             <Link
-              href="https://https://lucianaferreira.netlify.app/"
+              href="https://lucianaferreira.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
