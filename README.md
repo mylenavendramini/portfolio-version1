@@ -5,7 +5,7 @@
   
 
   <p align="center">
-    <a href="https:/https://mylenavendramini.com">View Website</a>
+    <a href="https://mylenavendramini.com">View Website</a>
   </p>
 </div>
 
