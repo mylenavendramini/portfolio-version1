@@ -25,7 +25,7 @@ const PopupSalon = ({ close }) => (
               Minimalist and responsive website of a hair and beauty salon.
             </h2>
             <Link
-              href="https://lucianaferreira.netlify.app/"
+              href="https://juliaalbuquerque.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
