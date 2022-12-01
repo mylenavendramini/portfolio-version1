@@ -1,7 +1,8 @@
 import styled from "styled-components";
+import Popup from "reactjs-popup";
 
-export const ContactContainer = styled.div`
-  padding: 8rem 4rem 14rem 4rem;
+export const BusinessContainer = styled.div`
+  padding: 8rem 4rem 10rem 4rem;
 
   @media only screen and (max-width: 1050px) {
     padding: 1rem 4rem 4rem 2rem;
@@ -39,6 +40,10 @@ export const ContactContainer = styled.div`
     }
   }
 
+  #reason {
+    margin-top: 4rem;
+  }
+
   a {
     text-decoration: none;
     /* padding: 1rem; */
@@ -58,5 +63,3 @@ export const ContactContainer = styled.div`
     }
   }
 `;
-
-export const LinkedinLink = styled.a``;
