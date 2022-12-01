@@ -1,3 +1,55 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h1 align="center">Mylena Vendramini Portfolio</h1>
+  
+
+  <p align="center">
+    <a href="https://mylenavendramini.com">View Website</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#contact">Contact</a></li>
+    <li><a href="#acknowledgments">Acknowledgments</a></li>
+  </ol>
+</details>
+
+
+
+<!-- ABOUT THE PROJECT -->
+## About The Project
+
+My portfolio website, which I built using React. I chose a black and white color palette and added a button to toggle the theme. I added an about me page, a skills page, my main projects and my contact.
+
+https://user-images.githubusercontent.com/93344031/204841222-7c708b70-78b9-43b3-8e5e-ed22f08b5e2c.mov
+
+https://user-images.githubusercontent.com/93344031/204841696-d5827399-1f33-436d-b65f-40604cb3357d.mov
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+HTML | CSS | JAVASCRIPT | REACT
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
