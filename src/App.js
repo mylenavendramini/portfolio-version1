@@ -34,6 +34,9 @@ function App() {
     setTheme(newTheme);
   };
 
+  // click in the there input:
+  // display none for one image and display flex for the other
+
   useEffect(() => {
     AOS.init();
     AOS.refresh();

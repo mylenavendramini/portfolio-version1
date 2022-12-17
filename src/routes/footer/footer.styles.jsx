@@ -8,8 +8,13 @@ export const FooterContainer = styled.div`
   display: none;
   justify-content: space-around;
   align-items: center;
-  background-color: var(--text-primary);
+  /* background-color: var(--text-primary); */
   color: var(--background);
+
+  #email,
+  #linkedin {
+    width: 90%;
+  }
 
   @media only screen and (max-width: 800px) {
     display: flex;
@@ -21,20 +26,14 @@ export const FooterContainer = styled.div`
   a {
     text-decoration: none;
     background-color: transparent;
-    color: var(--background);
     text-decoration: none;
-    /* padding: 1rem; */
     font-size: 1rem;
     letter-spacing: 2px;
     transition: color 0.1s;
     border: none;
     cursor: pointer;
-    position: absolute;
+    /* position: absolute; */
     right: 1rem;
-
-    &:hover {
-      text-shadow: 0 0 1px var(--background);
-    }
   }
 
   /* a:after {
@@ -46,6 +45,7 @@ export const FooterContainer = styled.div`
 
 export const Logo = styled.div`
   display: none;
+
   a {
     font-family: "Pacifico", cursive;
     font-size: 1.3rem;
@@ -78,22 +78,15 @@ export const FooterLink = styled(Link)`
 export const LinkedinLink = styled.a`
   display: none;
   text-decoration: none;
-  /* padding: 1rem; */
-  position: absolute;
+  /* position: absolute; */
   left: 1rem;
   font-size: 1rem;
   font-weight: 800;
   transition: color 0.1s;
-  background-color: transparent;
-  color: var(--background);
   outline: none;
   text-shadow: none;
   border: none;
   cursor: pointer;
-
-  &:hover {
-    text-shadow: 0 0 1px var(--background);
-  }
 
   @media only screen and (max-width: 800px) {
     display: flex;

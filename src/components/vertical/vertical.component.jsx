@@ -4,36 +4,114 @@ import {
   RightContainer,
   VerticalLinks,
   VerticalLink,
+  TestLink,
   LinkedinLink,
 } from "./vertical.styles";
 
 const Vertical = () => {
   return (
     <VerticalContainer>
-      <RightContainer>
+      {/*<RightContainer>
         <VerticalLinks>
-          {/*<Link to="/about">ABOUT</Link>*/}
+ 
           <VerticalLink to="projects" spy={true} smooth={true}>
             PROJECTS
           </VerticalLink>
+         
         </VerticalLinks>
-      </RightContainer>
-
+  </RightContainer>*/}
       <LeftContainer>
-        <VerticalLinks>
-          <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
-            myvendramini@gmail.com
-          </a>
-        </VerticalLinks>
-      </LeftContainer>
+        {/*<LinkedinLink href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
+          <img
+            className="color-theme-white"
+            src="icons8-email-black.png"
+            alt=""
+            id="email"
+          />
+          <img
+            className="color-theme-dark"
+            src="icons8-email-white.png"
+            alt=""
+            id="email"
+          />
+        </LinkedinLink>
 
-      <LinkedinLink
-        href="https://www.linkedin.com/in/mylenavendramini/"
-        target="_blank"
-        rel="noreferrer"
-      >
-        in
-      </LinkedinLink>
+        <LinkedinLink
+          href="https://www.linkedin.com/in/mylenavendramini/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="icons8-linkedin-black.png" alt="" />
+        </LinkedinLink>
+
+        <LinkedinLink
+          href="https://www.instagram.com/viajamylena/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="icons8-instagram-black.png" alt="" id="instagram" />
+        </LinkedinLink>
+
+        <LinkedinLink
+          href="https://twitter.com/mmvendramini"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="icons8-twitter-black.png" alt="" />
+        </LinkedinLink>
+        <LinkedinLink
+          href="https://github.com/mylenavendramini"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img src="icons8-github-black.png" alt="" />
+</LinkedinLink>*/}
+
+        <TestLink
+          href="https://github.com/mylenavendramini"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-github-white.png" alt="" />
+          <img className="lighttheme" src="icons8-github-black.png" alt="" />
+        </TestLink>
+
+        <TestLink
+          href="https://www.linkedin.com/in/mylenavendramini/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-linkedin-white.png" alt="" />
+          <img className="lighttheme" src="icons8-linkedin-black.png" alt="" />
+        </TestLink>
+
+        <TestLink
+          href="https://www.instagram.com/viajamylena/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-instagram-white.png" alt="" />
+          <img className="lighttheme" src="icons8-instagram-black.png" alt="" />
+        </TestLink>
+
+        <TestLink
+          href="https://twitter.com/mmvendramini"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-twitter-white.png" alt="" />
+          <img className="lighttheme" src="icons8-twitter-black.png" alt="" />
+        </TestLink>
+
+        <TestLink
+          href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-email-white.png" alt="" />
+          <img className="lighttheme" src="icons8-email-black.png" alt="" />
+        </TestLink>
+      </LeftContainer>
     </VerticalContainer>
   );
 };

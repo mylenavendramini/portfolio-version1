@@ -28,10 +28,33 @@ a {
   --text-primary: black;
   --text-secondary: rgb(146, 146, 146);
   --accent: purple;
+  --githubBlack: url(../public/icons8-github-black.png);
+  --linkedinBlack: url(../public/icons8-linkedin-black.png);
+  --emailBlack: url(../public/icons8-email-black.png);
+  --instagramBlack: url(../public/icons8-instagram-black.png);
+  --twitterBlack: url(../public/icons8-twitter-black.png);
 }
 [data-theme="dark"] {
   --background: black;
   --text-primary: white;
   --text-secondary: rgb(109, 106, 106);
   --accent: darkred;
+  --githubWhite: url(../public/icons8-github-white.png);
+  --linkedinWhite: url(../public/icons8-linkedin-white.png);
+  --emailWhite: url(../public/icons8-email-white.png);
+  --instagramWhite: url(../public/icons8-instagram-white.png);
+  --twitterWhite: url(../public/icons8-twitter-white.png);
+}
+
+[data-theme="dark"] .darktheme {
+  display: flex;
+}
+
+[data-theme="light"] .lighttheme {
+  display: flex;
+}
+
+.darktheme,
+.lighttheme {
+  display: none;
 }

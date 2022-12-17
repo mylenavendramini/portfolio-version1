@@ -23,7 +23,7 @@ const Footer = () => {
             Contact
           </FooterLink>
         </FooterLinks>
-        <LinkedinLink
+        {/*<LinkedinLink
           href="https://www.linkedin.com/in/mylenavendramini/"
           target="_blank"
           rel="noreferrer"
@@ -32,7 +32,51 @@ const Footer = () => {
         </LinkedinLink>
         <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
           myvendramini@gmail.com
-        </a>
+  </a>*/}
+        <LinkedinLink
+          href="https://github.com/mylenavendramini"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-github-white.png" alt="" />
+          <img className="lighttheme" src="icons8-github-black.png" alt="" />
+        </LinkedinLink>
+
+        <LinkedinLink
+          href="https://www.linkedin.com/in/mylenavendramini/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-linkedin-white.png" alt="" />
+          <img className="lighttheme" src="icons8-linkedin-black.png" alt="" />
+        </LinkedinLink>
+
+        <LinkedinLink
+          href="https://www.instagram.com/viajamylena/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-instagram-white.png" alt="" />
+          <img className="lighttheme" src="icons8-instagram-black.png" alt="" />
+        </LinkedinLink>
+
+        <LinkedinLink
+          href="https://twitter.com/mmvendramini"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-twitter-white.png" alt="" />
+          <img className="lighttheme" src="icons8-twitter-black.png" alt="" />
+        </LinkedinLink>
+
+        <LinkedinLink
+          href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img className="darktheme" src="icons8-email-white.png" alt="" />
+          <img className="lighttheme" src="icons8-email-black.png" alt="" />
+        </LinkedinLink>
       </FooterContainer>
     </Fragment>
   );

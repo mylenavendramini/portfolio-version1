@@ -12,10 +12,12 @@ import {
 import { FadeIn5Div, FadeIn10Div, PulseDiv } from "../../animation";
 
 import { Fragment } from "react";
+import Vertical from "../../components/vertical/vertical.component";
 
 const About = () => {
   return (
     <Fragment>
+      <Vertical />
       <AboutContainer>
         <FadeIn5Div>
           <PulseDiv>
@@ -40,7 +42,7 @@ const About = () => {
           to take a look at my CV.
         </h1>
 
-        <h6
+        {/*<h6
           data-aos={"fade-up"}
           data-aos-duration={"2000"}
           data-aos-delay={"500"}
@@ -52,7 +54,7 @@ const About = () => {
           >
             in
           </LinkedinLink>
-        </h6>
+  </h6>*/}
         <FadeIn10Div>
           <ScrollDown to="aboutme" spy={true} smooth={true}>
             <h6>Scroll down &#8675;</h6>
