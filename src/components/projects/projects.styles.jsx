@@ -74,43 +74,14 @@ export const ProjectImage = styled.div`
       text-shadow: 0 0 1px var(--text-primary);
     }
   }
-
-  /* button {
-    display: flex;
-    opacity: 0;
-    position: absolute;
-    width: auto;
-    height: 50px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 1rem;
-    letter-spacing: 4px;
-    transition: color 0.3s linear;
-    background-color: var(--text-primary);
-    color: var(--background);
-    padding: 0 2rem 0 2rem;
-    background-color: var(--background);
-    color: var(--text-primary);
-    border: none;
-    cursor: pointer;
-    justify-content: center;
-    align-items: center; 
-  }*/
 `;
 
 export const PopUpButtom = styled.button`
-  /* color: red; */
-  /* background-color: green; */
-  /* font-size: 2rem; */
-  /* position: absolute; */
-  /* margin-left: 3rem; */
-  /* right: 50%; */
   cursor: pointer;
   padding: 1rem;
   height: 100%;
   display: flex;
   flex-direction: column;
-  /* justify-content: space-between; */
   align-items: center;
   border: none;
 `;

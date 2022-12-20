@@ -11,6 +11,7 @@ import {
 
 import Burger from "../../components/burger/burger.component";
 import Menu from "../../components/menu/menu.component";
+import { Link } from "react-router-dom";
 
 const NavBar = () => {
   //burger
@@ -19,6 +20,9 @@ const NavBar = () => {
     setIsBurgerOpen(false);
   });
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
+  const scrollToTop = () => {
+    window.scrollTo(0, 0);
+  };
 
   return (
     <Fragment>
@@ -28,11 +32,16 @@ const NavBar = () => {
         </Logo>
 
         <NavLinks>
-          <a href="/about">About</a>
-          <NavLink to="projects" spy={true} smooth={true}>
-            Projects
-          </NavLink>
-          <a href="/skills">Skills</a>
+          <Link onClick={scrollToTop} to="/about">
+            About
+          </Link>
+          <Link onClick={scrollToTop} to="/dev">
+            Dev
+          </Link>
+          <Link onClick={scrollToTop} to="/websites">
+            Websites
+          </Link>
+
           <NavLink to="contact" spy={true} smooth={true}>
             Contact
           </NavLink>

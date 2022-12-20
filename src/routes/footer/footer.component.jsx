@@ -23,16 +23,7 @@ const Footer = () => {
             Contact
           </FooterLink>
         </FooterLinks>
-        {/*<LinkedinLink
-          href="https://www.linkedin.com/in/mylenavendramini/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          in
-        </LinkedinLink>
-        <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
-          myvendramini@gmail.com
-  </a>*/}
+
         <LinkedinLink
           href="https://github.com/mylenavendramini"
           target="_blank"

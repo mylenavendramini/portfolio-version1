@@ -8,7 +8,7 @@ export const FooterContainer = styled.div`
   display: none;
   justify-content: space-around;
   align-items: center;
-  /* background-color: var(--text-primary); */
+  /* background-color: var(--background); */
   color: var(--background);
 
   #email,

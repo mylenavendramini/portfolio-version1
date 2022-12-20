@@ -7,11 +7,9 @@ import PopupNutritionist from "../popup/popup-nutritionist.component";
 
 const Business = () => {
   return (
-    <BusinessContainer>
-      <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
-        What do I do?
-      </h1>
-      <h3 data-aos={"fade-up"} data-aos-duration={"900"}>
+    <BusinessContainer data-aos={"fade-up"} data-aos-duration={"2000"}>
+      <h1>What do I do?</h1>
+      <h3>
         I create beautifully designed, easy-to-access websites that work on
         desktop, iPad, and mobile.
       </h3>
@@ -38,7 +36,7 @@ const Business = () => {
         website.
       </h3>
       <h1 data-aos={"fade-up"} data-aos-duration={"3000"} id="reason">
-        Why have a website?
+        Why should you have a website?
       </h1>
       <h3 data-aos={"fade-up"} data-aos-duration={"1800"}>
         <strong>Greater credibility:</strong> most consumers believe that a

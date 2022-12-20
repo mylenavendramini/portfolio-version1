@@ -17,7 +17,7 @@ export const PresentationContainer = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 3rem 0rem 0 1rem;
+    padding: 4rem 1rem 0 1rem;
   }
 
   h3 {

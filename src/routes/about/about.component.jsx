@@ -103,7 +103,7 @@ const About = () => {
           />
         </AboutGrid>
 
-        <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
+        <h4 data-aos={"fade-up"} data-aos-duration={"1000"} id="contact">
           Do you have any questions or would you like to talk about work?
         </h4>
         <p data-aos={"fade-up"} data-aos-duration={"1000"}>

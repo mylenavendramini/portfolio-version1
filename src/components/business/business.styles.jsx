@@ -1,15 +1,14 @@
 import styled from "styled-components";
-import Popup from "reactjs-popup";
 
 export const BusinessContainer = styled.div`
   padding: 8rem 4rem 10rem 4rem;
 
   @media only screen and (max-width: 1050px) {
-    padding: 1rem 4rem 4rem 2rem;
+    padding: 1rem 4rem 4rem 3rem;
   }
 
   @media only screen and (max-width: 950px) {
-    padding: 1rem 4rem 4rem 0;
+    padding: 1rem 4rem 4rem 4rem;
   }
 
   @media only screen and (max-width: 650px) {

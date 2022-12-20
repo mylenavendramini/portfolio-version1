@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <ContactContainer id="contact">
       <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
-        Let's make your website!
+        Keep in touch!
       </h1>
       <h3 data-aos={"fade-up"} data-aos-duration={"900"}>
         Please, send me an e-mail at{" "}

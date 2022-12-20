@@ -8,12 +8,12 @@ import {
   Link,
 } from "./popup.styles";
 
-import { RubberBandDiv } from "../../animation";
+import { FadeInDiv } from "../../animation";
 
 const PopupTravelWithMe = ({ close }) => (
   <div>
     <PopUpContent>
-      <RubberBandDiv>
+      <FadeInDiv>
         <Modal>
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
@@ -36,7 +36,7 @@ const PopupTravelWithMe = ({ close }) => (
             </Link>
           </ModalContent>
         </Modal>
-      </RubberBandDiv>
+      </FadeInDiv>
     </PopUpContent>
   </div>
 );

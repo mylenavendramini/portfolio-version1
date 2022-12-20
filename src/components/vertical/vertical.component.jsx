@@ -21,52 +21,6 @@ const Vertical = () => {
         </VerticalLinks>
   </RightContainer>*/}
       <LeftContainer>
-        {/*<LinkedinLink href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
-          <img
-            className="color-theme-white"
-            src="icons8-email-black.png"
-            alt=""
-            id="email"
-          />
-          <img
-            className="color-theme-dark"
-            src="icons8-email-white.png"
-            alt=""
-            id="email"
-          />
-        </LinkedinLink>
-
-        <LinkedinLink
-          href="https://www.linkedin.com/in/mylenavendramini/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="icons8-linkedin-black.png" alt="" />
-        </LinkedinLink>
-
-        <LinkedinLink
-          href="https://www.instagram.com/viajamylena/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="icons8-instagram-black.png" alt="" id="instagram" />
-        </LinkedinLink>
-
-        <LinkedinLink
-          href="https://twitter.com/mmvendramini"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="icons8-twitter-black.png" alt="" />
-        </LinkedinLink>
-        <LinkedinLink
-          href="https://github.com/mylenavendramini"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img src="icons8-github-black.png" alt="" />
-</LinkedinLink>*/}
-
         <TestLink
           href="https://github.com/mylenavendramini"
           target="_blank"

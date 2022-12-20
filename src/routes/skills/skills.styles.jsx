@@ -2,15 +2,13 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const SkillsContainer = styled.div`
-  padding: 2rem 4rem 2rem 4rem;
-  margin: 0 4rem 0 4rem;
+  padding: 4rem 0rem;
 
   @media only screen and (max-width: 1050px) {
-    padding: 1rem 2rem 1rem 2rem;
+    padding: 1rem 0rem;
   }
 
   @media only screen and (max-width: 950px) {
-    padding: 1rem 0 1rem 0;
     margin-bottom: 5rem;
   }
 

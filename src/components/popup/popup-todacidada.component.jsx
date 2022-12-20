@@ -8,12 +8,12 @@ import {
   Link,
 } from "./popup.styles";
 
-import { RubberBandDiv } from "../../animation";
+import { FadeInDiv } from "../../animation";
 
 const PopupTodaCidada = ({ close }) => (
   <div>
     <PopUpContent>
-      <RubberBandDiv>
+      <FadeInDiv>
         <Modal>
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
@@ -38,7 +38,7 @@ const PopupTodaCidada = ({ close }) => (
             </Link>
           </ModalContent>
         </Modal>
-      </RubberBandDiv>
+      </FadeInDiv>
     </PopUpContent>
   </div>
 );

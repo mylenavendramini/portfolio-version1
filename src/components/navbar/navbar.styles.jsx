@@ -6,7 +6,7 @@ export const NavBarContainer = styled.div`
   height: 10vh;
   width: 100%;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   background-color: var(--text-primary);
   color: var(--background);
@@ -49,10 +49,19 @@ export const Logo = styled.div`
   a {
     font-family: "Pacifico", cursive;
     font-size: 1.3rem;
+    padding-left: 8rem;
     text-align: center;
     text-decoration: none;
     background-color: var(--text-primary);
     color: var(--background);
+
+    @media only screen and (max-width: 1050px) {
+      padding-left: 6rem;
+    }
+
+    @media only screen and (max-width: 950px) {
+      padding-left: 4rem;
+    }
 
     @media only screen and (max-width: 800px) {
       padding-left: 2.5rem;
@@ -62,6 +71,7 @@ export const Logo = styled.div`
 
 export const NavLinks = styled.div`
   text-align: center;
+  margin-right: 7rem;
 
   @media only screen and (max-width: 800px) {
     display: none;
