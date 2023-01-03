@@ -112,6 +112,7 @@ export const ModalClose = styled.a`
 `;
 
 export const WebsiteButton = styled.button`
+  margin-top: 0.5rem;
   display: flex;
   width: auto;
   height: 50px;

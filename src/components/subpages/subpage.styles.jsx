@@ -33,12 +33,12 @@ export const SubpageContainer = styled.div`
 export const SubpageGrid = styled.div`
   margin-top: 4rem;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
 
-  @media only screen and (max-width: 1300px) {
+  /* @media only screen and (max-width: 1300px) {
     grid-template-columns: repeat(2, 1fr);
-  }
+  } */
 
   @media only screen and (max-width: 1000px) {
     grid-template-columns: repeat(1, 1fr);

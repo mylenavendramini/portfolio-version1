@@ -39,14 +39,14 @@ const Vertical = () => {
           <img className="lighttheme" src="icons8-linkedin-black.png" alt="" />
         </TestLink>
 
-        <TestLink
+        {/*<TestLink
           href="https://www.instagram.com/viajamylena/"
           target="_blank"
           rel="noreferrer"
         >
           <img className="darktheme" src="icons8-instagram-white.png" alt="" />
           <img className="lighttheme" src="icons8-instagram-black.png" alt="" />
-        </TestLink>
+</TestLink>*/}
 
         <TestLink
           href="https://twitter.com/mmvendramini"

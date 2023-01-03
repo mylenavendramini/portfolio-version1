@@ -38,13 +38,12 @@ const NavBar = () => {
           <Link onClick={scrollToTop} to="/dev">
             Dev
           </Link>
+          <Link onClick={scrollToTop} to="/blog">
+            Blog
+          </Link>
           <Link onClick={scrollToTop} to="/websites">
             Websites
           </Link>
-
-          <NavLink to="contact" spy={true} smooth={true}>
-            Contact
-          </NavLink>
         </NavLinks>
         <div ref={node}>
           <Burger

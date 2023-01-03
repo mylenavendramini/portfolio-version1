@@ -16,6 +16,7 @@ export const ProjectsContainer = styled.div`
   h1 {
     font-size: 1.5rem;
     text-align: justify;
+    margin-top: 5rem;
     margin-bottom: 5rem;
     letter-spacing: 1px;
   }

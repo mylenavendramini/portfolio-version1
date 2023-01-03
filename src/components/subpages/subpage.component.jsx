@@ -7,9 +7,9 @@ const Subpage = () => {
   };
   return (
     <SubpageContainer>
-      <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
+      {/*<h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
         What do I do?
-      </h1>
+  </h1>*/}
       <SubpageGrid>
         <SubpageImage data-aos={"zoom-in-up"} data-aos-duration={"3000"}>
           <Link onClick={scrollToTop} to="/websites">
@@ -21,11 +21,11 @@ const Subpage = () => {
             <h2>I'm a dev</h2>
           </Link>
         </SubpageImage>
-        <SubpageImage data-aos={"zoom-in-up"} data-aos-duration={"3000"}>
+        {/*<SubpageImage data-aos={"zoom-in-up"} data-aos-duration={"3000"}>
           <Link onClick={scrollToTop} to="/viajamylena">
             <h2>I talk about travelling</h2>
           </Link>
-        </SubpageImage>
+  </SubpageImage>*/}
       </SubpageGrid>
     </SubpageContainer>
   );

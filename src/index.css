@@ -27,23 +27,22 @@ a {
   --background: white;
   --text-primary: black;
   --text-secondary: rgb(146, 146, 146);
-  --accent: purple;
-  --githubBlack: url(../public/icons8-github-black.png);
-  --linkedinBlack: url(../public/icons8-linkedin-black.png);
-  --emailBlack: url(../public/icons8-email-black.png);
-  --instagramBlack: url(../public/icons8-instagram-black.png);
-  --twitterBlack: url(../public/icons8-twitter-black.png);
+  --tangerine: #ffa286;
+  --peach: #fcdcc8;
+  --rose: #fff4f2;
+  --aqua: #a5eacf;
+  --dark-aqua: #6ea08d;
 }
+
 [data-theme="dark"] {
   --background: black;
   --text-primary: white;
   --text-secondary: rgb(109, 106, 106);
-  --accent: darkred;
-  --githubWhite: url(../public/icons8-github-white.png);
-  --linkedinWhite: url(../public/icons8-linkedin-white.png);
-  --emailWhite: url(../public/icons8-email-white.png);
-  --instagramWhite: url(../public/icons8-instagram-white.png);
-  --twitterWhite: url(../public/icons8-twitter-white.png);
+  --tangerine: #bbeedb;
+  --peach: #fcdcc8;
+  --rose: black;
+  --aqua: #bbeedb;
+  --dark-aqua: #6ea08d;
 }
 
 [data-theme="dark"] .darktheme {
@@ -57,4 +56,8 @@ a {
 .darktheme,
 .lighttheme {
   display: none;
+}
+
+html {
+  scroll-behavior: smooth;
 }

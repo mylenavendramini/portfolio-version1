@@ -1,35 +1,28 @@
 import styled from "styled-components";
 
 export const PostsContainer = styled.div`
-  padding: 1rem 4rem 6rem 4rem;
+  padding: 6rem 4rem 6rem 4rem;
   margin: 0 4rem 0 4rem;
 
   @media only screen and (max-width: 1050px) {
-    padding: 0rem 2rem 1rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     margin: 0 1rem 0 1rem;
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 0rem 0rem 1rem 0rem;
+    padding: 4rem 0rem 1rem 0rem;
     margin: 1rem;
   }
 
-  h1,
-  h2,
-  h6 {
-    font-family: "Rampart One", cursive;
-    color: var(--tangerine);
-  }
-
   h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     padding-top: 1rem;
     letter-spacing: 1px;
 
     &::before {
       content: "";
-      border-top: 3px dotted var(--peach);
+      border-top: 2px solid var(--text-primary);
 
       padding-top: 1rem;
       display: block;
@@ -38,22 +31,16 @@ export const PostsContainer = styled.div`
     &::after {
       content: "";
       margin-top: 1rem;
-      border-bottom: 3px dotted var(--peach);
+      border-bottom: 2px solid var(--text-primary);
       width: 100%;
       display: block;
     }
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-align: center;
     letter-spacing: 1px;
-  }
-
-  h2,
-  a,
-  img {
-    background-color: var(--rose);
   }
 
   h3 {
@@ -73,13 +60,13 @@ export const PostsContainer = styled.div`
   }
 
   h6 {
-    font-size: 4rem;
-    letter-spacing: 3px;
+    font-size: 2.5rem;
+    letter-spacing: 1px;
     text-transform: uppercase;
     text-align: center;
 
     @media only screen and (max-width: 650px) {
-      font-size: 3rem;
+      font-size: 1.6rem;
     }
   }
 
@@ -87,7 +74,7 @@ export const PostsContainer = styled.div`
     font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-weight: bold;
+    font-weight: 500;
     margin-bottom: 4rem;
   }
 `;
@@ -110,11 +97,10 @@ export const AllPostImage = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 3px dotted var(--peach);
+  border: 2px solid var(--text-primary);
   padding: 1.5rem 2rem;
   height: 100%;
   width: 100%;
-  background-color: var(--rose);
 
   img {
     width: 100%;
@@ -122,7 +108,7 @@ export const AllPostImage = styled.div`
   }
 
   &:hover {
-    transform: scale(1.01);
+    box-shadow: 1px 3px;
   }
 
   @media only screen and (max-width: 650px) {
@@ -133,10 +119,10 @@ export const AllPostImage = styled.div`
 export const Gradient = styled.h6`
   background: linear-gradient(
     to right,
-    var(--peach) 20%,
-    var(--aqua) 40%,
-    var(--peach) 60%,
-    var(--aqua) 80%
+    var(--text-secondary) 20%,
+    var(--text-primary) 40%,
+    var(--text-secondary) 60%,
+    var(--text-primary) 80%
   );
   background-size: 200% auto;
   background-clip: text;
@@ -147,6 +133,38 @@ export const Gradient = styled.h6`
   @keyframes shine {
     to {
       background-position: 100% center;
+    }
+  }
+`;
+
+export const PostContent = styled.div`
+  padding: 5rem 15rem;
+
+  @media only screen and (max-width: 1350px) {
+    padding: 5rem 10rem;
+  }
+
+  @media only screen and (max-width: 1150px) {
+    padding: 5rem 5rem;
+  }
+
+  @media only screen and (max-width: 850px) {
+    padding: 5rem 0rem;
+  }
+`;
+
+export const PostImage = styled.div`
+  text-align: center;
+
+  
+
+  img {
+    @media only screen and (max-width: 1350px) {
+      width: 100%;
+    }
+
+    @media only screen and (max-width: 850px) {
+      width: 100%;
     }
   }
 `;

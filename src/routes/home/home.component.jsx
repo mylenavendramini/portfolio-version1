@@ -15,7 +15,6 @@ const Home = () => {
         <Vertical />
         <Presentation />
         <Subpage />
-        <Business />
         <Projects />
         <Contact />
       </HomeContainer>

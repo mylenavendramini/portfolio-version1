@@ -10,7 +10,7 @@ import {
 
 import { FadeInDiv } from "../../animation";
 
-const PopupThisAuthor = ({ close }) => (
+const PopupJSQuiz = ({ close }) => (
   <div>
     <PopUpContent>
       <FadeInDiv>
@@ -18,25 +18,24 @@ const PopupThisAuthor = ({ close }) => (
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
             <img
-              src="https://i.ibb.co/z4c2nDz/Screenshot-2022-09-12-at-15-54-0.jpg"
-              alt="this-author"
+              src="https://i.ibb.co/txMtqQX/Design-sem-nome.png"
+              alt="jsquiz"
             />
           </ModalImage>
           <ModalContent>
-            <h3>This Author</h3>
+            <h3>Javascript Quiz</h3>
             <h2>
-              Exhibition of the author's books, biography and reviews on a
-              website that really represents her personality.
+              Javascript Quiz test to practice important JavaScript concepts.
             </h2>
             <Link
-              href="https://this-author.netlify.app/"
+              href="https://javascript-quiz-mv.netlify.app/"
               target="_blank"
               rel="noreferrer"
             >
               <WebsiteButton>View Website</WebsiteButton>
             </Link>
             <Link
-              href="https://github.com/mylenavendramini/book-page"
+              href="https://github.com/mylenavendramini/quiz-javascript"
               target="_blank"
               rel="noreferrer"
             >
@@ -49,4 +48,4 @@ const PopupThisAuthor = ({ close }) => (
   </div>
 );
 
-export default PopupThisAuthor;
+export default PopupJSQuiz;

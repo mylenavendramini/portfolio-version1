@@ -17,13 +17,13 @@ export const ProjectsContainer = styled.div`
 
   h1 {
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: left;
     margin-bottom: 5rem;
     letter-spacing: 1px;
   }
 
   h4 {
-    text-align: center;
+    text-align: left;
     font-size: 2rem;
     letter-spacing: 1px;
     text-transform: uppercase;
@@ -45,6 +45,17 @@ export const ProjectsContainer = styled.div`
       font-size: 1.3rem;
     }
   }
+
+  #img-1 {
+    margin: 1rem;
+  }
+
+  h1,
+  h4 {
+    @media only screen and (max-width: 650px) {
+      text-align: center;
+    }
+  }
 `;
 
 export const ProjectImage = styled.div`
@@ -52,20 +63,14 @@ export const ProjectImage = styled.div`
   justify-content: center;
   align-items: center;
   /* margin: 2rem 0; */
-  margin-left: -8rem;
-  margin-right: -8rem;
 
-  @media only screen and (max-width: 1050px) {
+  /* @media only screen and (max-width: 1050px) {
     margin: -0.2rem -5rem;
   }
 
   @media only screen and (max-width: 950px) {
     margin: -0.2rem -6rem;
-  }
-
-  @media only screen and (max-width: 600px) {
-    margin: -0.2rem -5rem;
-  }
+  }*/
 `;
 
 export const ProjectsGrid = styled.div`
@@ -100,23 +105,23 @@ export const ProjectsGrid = styled.div`
 export const TextContainer = styled.div`
   background-color: white;
 
-  @media only screen and (max-width: 1600px) {
-    margin: 0rem 2rem;
-  }
-
-  @media only screen and (max-width: 950px) {
-    margin: 0rem 5rem;
+  @media only screen and (max-width: 650px) {
+    margin: 1rem;
   }
 `;
 
 export const Button = styled.div`
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   background-color: transparent;
 
   @media only screen and (max-width: 850px) {
-    padding: 1rem;
+    padding: 1.2rem 0rem;
+  }
+
+  @media only screen and (max-width: 650px) {
+    justify-content: center;
   }
 
   a {

@@ -18,8 +18,9 @@ const Dev = () => {
       <DevContainer data-aos={"fade-up"} data-aos-duration={"1000"}>
         <h1>
           Ever since I started studying programming, I knew this was what I had
-          to do. I have already built several projects, where I developed my
-          skills in HTML, CSS, JavaScript, React and TypeScript.
+          to do. I have already built <a href="#projects">several projects</a>,
+          where I developed my <a href="#skills">skills</a> in HTML, CSS,
+          JavaScript, React and TypeScript.
         </h1>
 
         <h1>
@@ -35,9 +36,23 @@ const Dev = () => {
           </a>{" "}
           to take a look at my CV.
         </h1>
+        <h1>
+          Check my{" "}
+          <a href="/blog" rel="noreferrer">
+            blog
+          </a>{" "}
+          before you go.
+        </h1>
+        <div id="projects">
+          {" "}
+          <ProjectsDev />
+        </div>
 
-        <Skills />
-        <ProjectsDev />
+        <div id="skills">
+          {" "}
+          <Skills />
+        </div>
+
         <DevContact>
           <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
             Do you have any questions or would you like to talk about work?

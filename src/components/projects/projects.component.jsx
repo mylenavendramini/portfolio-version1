@@ -12,6 +12,7 @@ import PopupTodaCidada from "../popup/popup-todacidada.component";
 import PopupTravelWithMe from "../popup/popup-travelwithme.component";
 import PopupNutritionist from "../popup/popup-nutritionist.component";
 import PopupSalon from "../popup/popup-salon.component";
+import PopupJSQuiz from "../popup/popup-jsquiz.component";
 
 const Projects = () => {
   return (
@@ -19,26 +20,9 @@ const Projects = () => {
       <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
         Come check some things I've built!
       </h1>
+
       <h1 id="projects">.</h1>
       <ProjectsGrid>
-        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
-          <StyledPopup
-            trigger={
-              <PopUpButtom>
-                <h3>Nutritionist</h3>
-                <h2>
-                  Beautiful, intuitive and responsive website of a nutritionist.
-                </h2>
-                <Programs>
-                  <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4>
-                </Programs>
-              </PopUpButtom>
-            }
-          >
-            {(close) => <PopupNutritionist close={close} />}
-          </StyledPopup>
-        </ProjectImage>
-
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <StyledPopup
             trigger={
@@ -61,19 +45,36 @@ const Projects = () => {
           <StyledPopup
             trigger={
               <PopUpButtom>
-                <h3>Toda Cidadã</h3>
+                <h3>JavaScript Quiz</h3>
                 <h2>
-                  An intuitive and easily accessible website of an NGO that aims
-                  to promote debates about politics, economics and
-                  constitutional rights.
+                  Javascript Quiz test to practice important JavaScript
+                  concepts.
                 </h2>
                 <Programs>
-                  <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4> <h4>REACT</h4>
+                  <h4>TYPESCRIPT</h4> <h4>REACT</h4>
                 </Programs>
               </PopUpButtom>
             }
           >
-            {(close) => <PopupTodaCidada close={close} />}
+            {(close) => <PopupJSQuiz close={close} />}
+          </StyledPopup>
+        </ProjectImage>
+
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <StyledPopup
+            trigger={
+              <PopUpButtom>
+                <h3>Nutritionist</h3>
+                <h2>
+                  Beautiful, intuitive and responsive website of a nutritionist.
+                </h2>
+                <Programs>
+                  <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4>
+                </Programs>
+              </PopUpButtom>
+            }
+          >
+            {(close) => <PopupNutritionist close={close} />}
           </StyledPopup>
         </ProjectImage>
 
@@ -111,6 +112,25 @@ const Projects = () => {
             }
           >
             {(close) => <PopupThisAuthor close={close} />}
+          </StyledPopup>
+        </ProjectImage>
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <StyledPopup
+            trigger={
+              <PopUpButtom>
+                <h3>Toda Cidadã</h3>
+                <h2>
+                  An intuitive and easily accessible website of an NGO that aims
+                  to promote debates about politics, economics and
+                  constitutional rights.
+                </h2>
+                <Programs>
+                  <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4> <h4>REACT</h4>
+                </Programs>
+              </PopUpButtom>
+            }
+          >
+            {(close) => <PopupTodaCidada close={close} />}
           </StyledPopup>
         </ProjectImage>
       </ProjectsGrid>

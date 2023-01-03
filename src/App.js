@@ -21,8 +21,10 @@ import About from "./routes/about/about.component";
 import NotFound from "./routes/notFound/not-found.component";
 
 import Freelance from "./routes/freelance/freelance.component";
-import Travelling from "./routes/travelling/travelling.component";
+// import Travelling from "./routes/travelling/travelling.component";
 import Dev from "./routes/dev/dev.component";
+import Blog from "./components/blog/blog.component";
+import DevPostRoute from "./components/posts/dev-post.route";
 
 function App() {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -62,8 +64,10 @@ function App() {
 
         <Route path="/websites" element={<Freelance />} />
         <Route path="/dev" element={<Dev />} />
-        <Route path="/viajamylena" element={<Travelling />} />
+        {/*<Route path="/viajamylena" element={<Travelling />} />*/}
         <Route path="*" element={<NotFound />} />
+        <Route path="/blog/*" element={<Blog />} />
+        <Route path=":postId" element={<DevPostRoute />} />
         <Route
           path="/"
           element={
