@@ -51,6 +51,7 @@ export const StyledMenu = styled.nav`
 `;
 
 export const Logo = styled.div`
+  font-family: "Pacifico", cursive;
   background-color: transparent;
   margin-bottom: 5rem;
 `;
