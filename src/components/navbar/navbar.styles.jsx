@@ -83,8 +83,17 @@ export const NavLinks = styled.div`
     text-transform: uppercase;
     letter-spacing: 4px;
     padding-left: 2.5rem;
+
     background-color: var(--text-primary);
     color: var(--background);
+
+    &:focus {
+      /* border-bottom: 1px solid var(--background); */
+      text-decoration: underline var(--background);
+      text-underline-offset: 10px;
+      transition: 1s all;
+      /* opacity: 0.5; */
+    }
   }
 `;
 

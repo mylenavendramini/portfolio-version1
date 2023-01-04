@@ -1,14 +1,17 @@
 import styled from "styled-components";
 
 export const FreelanceContainer = styled.div`
-  padding: 4rem 4rem 6rem 4rem;
+  /* padding: 4rem 4rem 6rem 4rem; */
+  margin: 0rem 4rem;
+  padding: 1rem 4rem 10rem 4rem;
 
   @media only screen and (max-width: 1050px) {
     padding: 1rem 2rem 1rem 2rem;
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 4rem 1rem 1rem 1rem;
+    padding: 2rem 0 0 0;
+    margin: 0 2rem 0 2rem;
   }
 
   h6 {

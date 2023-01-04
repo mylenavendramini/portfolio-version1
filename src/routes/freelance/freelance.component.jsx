@@ -8,6 +8,7 @@ import Contact from "../../components/contact/contact.component";
 
 import { useRef, useState, Fragment } from "react";
 import { useOnClickOutside } from "../../hooks";
+import Vertical from "../../components/vertical/vertical.component";
 
 const Freelance = () => {
   const node = useRef();
@@ -20,6 +21,7 @@ const Freelance = () => {
   };
   return (
     <Fragment>
+      <Vertical />
       <FreelanceContainer>
         <PulseDiv>
           <Gradient>Let's create your website</Gradient>

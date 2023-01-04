@@ -21,7 +21,6 @@ const Projects = () => {
         Come check some things I've built!
       </h1>
 
-      <h1 id="projects">.</h1>
       <ProjectsGrid>
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <StyledPopup

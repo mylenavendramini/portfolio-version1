@@ -1,35 +1,42 @@
 import styled from "styled-components";
 
 export const DevContainer = styled.div`
-  padding: 10rem 4rem 10rem 4rem;
-  margin: 0 4rem 0 4rem;
+  /* padding: 10rem 4rem 10rem 4rem; */
+  margin: 0rem 4rem;
+  padding: 2rem 4rem 10rem 4rem;
 
   @media only screen and (max-width: 1050px) {
-    padding: 10rem 2rem 1rem 2rem;
+    padding: 2rem 2rem 1rem 2rem;
   }
 
   @media only screen and (max-width: 950px) {
-    padding: 10rem 0 1rem 0;
+    padding: 2rem 0 1rem 0;
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 2.8rem 0 0 0;
+    padding: 2rem 0 0 0;
     margin: 0 2rem 0 2rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+    text-align: justify;
+    letter-spacing: 1px;
+    /* margin-top: 12rem; */
   }
 
   h1 {
     font-size: 1.5rem;
-    letter-spacing: 1px;
     text-align: justify;
+    font-weight: 500;
 
     a {
-      color: gray;
+      /* color: rgb(78, 75, 75); */
       text-decoration: underline;
     }
 
     @media only screen and (max-width: 650px) {
       font-size: 1.3rem;
-      font-weight: 500;
     }
   }
 `;

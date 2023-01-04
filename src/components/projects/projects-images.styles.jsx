@@ -1,18 +1,19 @@
 import styled from "styled-components";
 
 export const ProjectsContainer = styled.div`
-  padding: 10rem 4rem 10rem 4rem;
+  /* padding: 10rem 4rem 10rem 4rem; */
+  padding-top: 3rem;
 
   @media only screen and (max-width: 1050px) {
-    padding: 1rem 3rem 1rem 3rem;
+    /* padding: 1rem 3rem 1rem 3rem; */
   }
 
   @media only screen and (max-width: 950px) {
-    padding: 1rem 3rem 1rem 4rem;
+    /* padding: 1rem 3rem 1rem 4rem; */
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 4rem 1rem 0 1rem;
+    /* padding: 4rem 1rem 0 1rem; */
   }
 
   h1 {
@@ -50,7 +51,6 @@ export const ProjectsContainer = styled.div`
     margin: 1rem;
   }
 
-  h1,
   h4 {
     @media only screen and (max-width: 650px) {
       text-align: center;

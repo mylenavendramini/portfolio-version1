@@ -87,6 +87,18 @@ const DevPosts = () => {
             </AllPostImage>
           ))}
         </AllPostsContainer>
+
+        {/*<AllPostsContainer data-aos={"fade-up"} data-aos-duration={"1000"}>
+          {devPosts.map((post) => (
+            <AllPostImage key={post.id}>
+              <Link to={post.id}>
+                <h2>{post.title}</h2>
+                <img src={post.imgUrl[0]} alt="post" />
+              </Link>{" "}
+            </AllPostImage>
+          ))}
+          </AllPostsContainer>*/}
+
         {devPosts.map((post) => (
           <div key={post.id}>
             <DevPost key={post.id} post={post} />

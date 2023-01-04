@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Popup from "reactjs-popup";
 
 export const ProjectsContainer = styled.div`
-  padding: 10rem 4rem 10rem 4rem;
+  padding: 3rem 4rem 3rem 4rem;
 
   @media only screen and (max-width: 1050px) {
     padding: 1rem 2rem 1rem 2rem;
@@ -104,13 +104,45 @@ export const StyledPopup = styled(Popup)`
 export const Programs = styled.div`
   display: flex;
   align-self: center;
+  justify-content: center;
+  align-items: center;
+
+  @media only screen and (max-width: 650px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: auto 2rem;
+  }
+
+  .smallerImg {
+    img {
+      width: 45%;
+
+      @media only screen and (max-width: 650px) {
+        width: 35%;
+      }
+    }
+  }
+
+  .smallerImg2 {
+    img {
+      width: 20%;
+    }
+  }
+
+  img {
+    margin-right: 5px;
+  }
 
   h4 {
-    padding: 0 1rem 0 1rem;
-    letter-spacing: 4px;
+    padding: 0 0.5rem 0 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
 
     @media only screen and (max-width: 650px) {
       font-size: 1rem;
+      letter-spacing: 1px;
     }
   }
 `;

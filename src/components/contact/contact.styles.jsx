@@ -1,42 +1,16 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  padding: 8rem 4rem 14rem 4rem;
-
-  @media only screen and (max-width: 1050px) {
-    padding: 1rem 4rem 4rem 2rem;
-  }
-
-  @media only screen and (max-width: 950px) {
-    padding: 1rem 4rem 4rem 0;
-  }
-
-  @media only screen and (max-width: 650px) {
-    padding: 4rem 1rem 4rem 1rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-  }
-
   h1 {
     font-size: 1.5rem;
     text-align: justify;
-    margin-bottom: 4rem;
     letter-spacing: 1px;
   }
 
-  h3 {
+  p {
     font-size: 1.5rem;
-    line-height: 30px;
     letter-spacing: 0.5px;
     font-weight: 500;
-
-    @media only screen and (max-width: 1200px) {
-      font-size: 1.2rem;
-    }
-    @media only screen and (max-width: 650px) {
-      font-size: 1rem;
-      letter-spacing: 2px;
-    }
   }
 
   a {
@@ -48,15 +22,69 @@ export const ContactContainer = styled.div`
     color: var(--text-primary);
     outline: none;
     text-shadow: none;
-
-    @media only screen and (max-width: 1200px) {
-      font-size: 1.2rem;
-    }
-    @media only screen and (max-width: 650px) {
-      font-size: 1rem;
-      letter-spacing: 2px;
-    }
   }
 `;
 
-export const LinkedinLink = styled.a``;
+export const FormContainer = styled.div`
+  display: flex;
+
+  input,
+  button {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    border: 2px solid var(--text-primary);
+    box-shadow: 1px 3px;
+    display: block;
+    align-items: center;
+    width: 65rem;
+
+    &:focus {
+      outline: none;
+    }
+
+    @media only screen and (max-width: 950px) {
+      width: 90%;
+    }
+
+    @media only screen and (max-width: 650px) {
+      width: 20rem;
+    }
+  }
+
+  button {
+    width: 6rem;
+    cursor: pointer;
+    font-weight: bold;
+  }
+
+  textarea {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 0.5rem;
+    border: 2px solid var(--text-primary);
+    box-shadow: 1px 3px;
+    display: block;
+    align-items: center;
+    width: 65rem;
+    font-family: inherit;
+
+    &:focus {
+      outline: none;
+    }
+
+    @media only screen and (max-width: 950px) {
+      width: 90%;
+    }
+
+    @media only screen and (max-width: 650px) {
+      width: 20rem;
+    }
+  }
+
+  @media only screen and (max-width: 928px) {
+    /* display: block;
+    margin-left: 0rem;
+    margin-right: 0rem; */
+  }
+`;

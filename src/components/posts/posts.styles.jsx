@@ -1,17 +1,18 @@
 import styled from "styled-components";
 
 export const PostsContainer = styled.div`
-  padding: 6rem 4rem 6rem 4rem;
-  margin: 0 4rem 0 4rem;
+  /* padding: 6rem 4rem 6rem 4rem;
+  margin: 0 4rem 0 4rem; */
+  margin: 0rem 4rem;
+  padding: 1rem 4rem 10rem 4rem;
 
   @media only screen and (max-width: 1050px) {
     padding: 1rem 2rem 1rem 2rem;
-    margin: 0 1rem 0 1rem;
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 4rem 0rem 1rem 0rem;
-    margin: 1rem;
+    padding: 2rem 0 0 0;
+    margin: 0 2rem 0 2rem;
   }
 
   h1 {
@@ -155,8 +156,6 @@ export const PostContent = styled.div`
 
 export const PostImage = styled.div`
   text-align: center;
-
-  
 
   img {
     @media only screen and (max-width: 1350px) {

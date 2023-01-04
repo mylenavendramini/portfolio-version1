@@ -35,9 +35,11 @@ const NavBar = () => {
           <Link onClick={scrollToTop} to="/about">
             About
           </Link>
+
           <Link onClick={scrollToTop} to="/dev">
             Dev
           </Link>
+
           <Link onClick={scrollToTop} to="/blog">
             Blog
           </Link>

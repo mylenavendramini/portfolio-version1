@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-scroll";
 
 export const SkillsContainer = styled.div`
-  padding: 4rem 0rem;
+  padding: 2rem 0rem;
 
   @media only screen and (max-width: 1050px) {
     padding: 1rem 0rem;
@@ -58,6 +58,12 @@ export const SkillsContainer = styled.div`
     letter-spacing: 2px;
   }
 
+  .smallerImg {
+    img {
+      width: 10%;
+    }
+  }
+
   h5 {
     text-align: justify;
     margin-top: 5rem;
@@ -66,6 +72,11 @@ export const SkillsContainer = styled.div`
     line-height: 30px;
     letter-spacing: 0.51px;
     font-weight: 500;
+    display: flex;
+
+    img {
+      margin-right: 8px;
+    }
 
     a {
       /* color: var(--text-secondary); */

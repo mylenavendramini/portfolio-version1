@@ -1,14 +1,18 @@
 import styled from "styled-components";
 
 export const PresentationContainer = styled.div`
+  margin: 0rem 10rem;
   padding: 2rem 4rem 2rem 4rem;
   align-items: center;
   align-content: center;
   align-self: center;
   text-justify: center;
   min-height: 70vh;
+  text-align: center;
 
-  @media only screen and (max-width: 1050px) {
+  @media only screen and (max-width: 1250px) {
+    margin: 0;
+    text-align: left;
     padding: 1rem 2rem 1rem 2rem;
   }
 
@@ -17,11 +21,12 @@ export const PresentationContainer = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    padding: 4rem 1rem 0 1rem;
+    padding: 1rem 1rem 0 1rem;
   }
 
   h3 {
     font-size: 1.5rem;
+    font-weight: 500;
     line-height: 30px;
     letter-spacing: 0.5px;
 
@@ -49,7 +54,8 @@ export const PresentationContainer = styled.div`
   }
 
   h1 {
-    font-size: 8rem;
+    font-size: 6rem;
+    font-weight: 800;
     letter-spacing: 16px;
     margin-top: 0rem;
     padding: 0;
@@ -66,9 +72,11 @@ export const PresentationContainer = styled.div`
       font-size: 5rem;
     }
     @media only screen and (max-width: 650px) {
-      font-size: 3.5rem;
+      font-size: 3.3rem;
       letter-spacing: 2px;
       font-weight: 800;
+      display: flex;
+      margin-bottom: 1rem;
     }
   }
 
@@ -88,6 +96,7 @@ export const PresentationContainer = styled.div`
 
   h5 {
     font-size: 1.5rem;
+    font-weight: 500;
     line-height: 30px;
     margin-top: -3rem;
     letter-spacing: 1px;
@@ -128,8 +137,78 @@ export const Gradient = styled.h1`
       background-position: 100% center;
     }
   }
+`;
 
-  @media only screen and (max-width: 550px) {
-    display: none;
+export const SubpageContainer = styled.div`
+  /* padding: 10rem 4rem 10rem 4rem; */
+  /* margin-right: 10rem; */
+
+  @media only screen and (max-width: 1050px) {
+    padding: 1rem 2rem 1rem 2rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    padding: 1rem 0 1rem 0;
+  }
+
+  @media only screen and (max-width: 650px) {
+    padding: 4rem 1rem 0 1rem;
+  }
+
+  h1 {
+    text-align: justify;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+`;
+
+export const SubpageGrid = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 3rem;
+
+  /* @media only screen and (max-width: 1300px) {
+    grid-template-columns: repeat(2, 1fr);
+  } */
+
+  @media only screen and (max-width: 1000px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+`;
+
+export const SubpageImage = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--text-primary);
+
+  &:hover {
+    box-shadow: 1px 3px;
+  }
+`;
+
+export const ContactContainer = styled.div`
+  padding: 2rem 4rem 14rem 4rem;
+
+  @media only screen and (max-width: 1050px) {
+    padding: 1rem 4rem 4rem 2rem;
+  }
+
+  @media only screen and (max-width: 950px) {
+    padding: 1rem 4rem 4rem 0;
+  }
+
+  @media only screen and (max-width: 650px) {
+    padding: 4rem 1rem 4rem 1rem;
+    margin-bottom: 5rem;
+    margin-top: 5rem;
   }
 `;

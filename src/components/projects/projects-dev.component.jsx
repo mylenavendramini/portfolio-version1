@@ -18,8 +18,63 @@ const ProjectsDev = () => {
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>This Author</h3>
           <Programs>
-            <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4> <h4>REACT</h4>
+            <h4>
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-html-white.png"
+                alt="HTML"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-html-black.png"
+                alt="HTML"
+              />{" "}
+              HTML{" "}
+            </h4>{" "}
+            <h4 className="smallerImg">
+              {" "}
+              <img
+                className="darktheme "
+                src="icons8-javascript-white.png"
+                alt="JS"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-javascript-black.png"
+                alt="JS"
+              />
+              JS
+            </h4>{" "}
+            <h4>
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-css3-white.png"
+                alt="CSS"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-css3-black.png"
+                alt="CSS"
+              />
+              CSS
+            </h4>{" "}
+            <h4>
+              <img
+                className="darktheme"
+                src="icons8-react-white.png"
+                alt="React"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-react-black.png"
+                alt="React"
+              />
+              REACT
+            </h4>
           </Programs>
+
           <h2>
             Exhibition of the author's books, biography and reviews on a website
             that really represents her personality.
@@ -50,7 +105,34 @@ const ProjectsDev = () => {
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>JavaScript Quiz</h3>
           <Programs>
-            <h4>REACT</h4> <h4>TYPESCRIPT</h4>
+            <h4>
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-react-white.png"
+                alt="React"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-react-black.png"
+                alt="React"
+              />
+              REACT
+            </h4>{" "}
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-typescript-white.png"
+                alt="typescript"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-typescript-black.png"
+                alt="typescript"
+              />
+              TYPESCRIPT
+            </h4>
           </Programs>
           <h2>
             Thinking about how not to forget some important JavaScript concepts,
@@ -58,9 +140,10 @@ const ProjectsDev = () => {
             knowledge in a fun way.
           </h2>
           <h2>
-            The site is in constant development, because I'm always feeding it with
-            new questions. While I start my backend studies, my idea is to make
-            the user use the application in an even better way in the future.
+            The site is in constant development, because I'm always feeding it
+            with new questions. While I start my backend studies, my idea is to
+            make the user use the application in an even better way in the
+            future.
           </h2>
           <Button>
             <a
@@ -83,7 +166,34 @@ const ProjectsDev = () => {
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>Gym App</h3>
           <Programs>
-            <h4>REACT</h4> <h4>TYPESCRIPT</h4>
+            <h4>
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-react-white.png"
+                alt="React"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-react-black.png"
+                alt="React"
+              />
+              REACT
+            </h4>{" "}
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-typescript-white.png"
+                alt="typescript"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-typescript-black.png"
+                alt="typescript"
+              />
+              TYPESCRIPT
+            </h4>
           </Programs>
           <h2>
             This is an app for anyone who wants a ready-made workout routine -
@@ -119,7 +229,61 @@ const ProjectsDev = () => {
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>Toda Cidadã</h3>
           <Programs>
-            <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4> <h4>REACT</h4>
+            <h4>
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-html-white.png"
+                alt="HTML"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-html-black.png"
+                alt="HTML"
+              />{" "}
+              HTML{" "}
+            </h4>{" "}
+            <h4 className="smallerImg">
+              {" "}
+              <img
+                className="darktheme "
+                src="icons8-javascript-white.png"
+                alt="JS"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-javascript-black.png"
+                alt="JS"
+              />
+              JS
+            </h4>{" "}
+            <h4>
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-css3-white.png"
+                alt="CSS"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-css3-black.png"
+                alt="CSS"
+              />
+              CSS
+            </h4>{" "}
+            <h4>
+              <img
+                className="darktheme"
+                src="icons8-react-white.png"
+                alt="React"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-react-black.png"
+                alt="React"
+              />
+              REACT
+            </h4>
           </Programs>
           <h2>
             I am responsible for the whole webpage of Toda Cidadã, an NGO that

@@ -9,16 +9,13 @@ export const ProjectsContainer = styled.div`
     padding: 1rem 0 1rem 0;
   }
 
-  @media only screen and (max-width: 650px) {
-    padding: 4rem 0rem;
-  }
-
   h1 {
     font-size: 1.5rem;
     text-align: justify;
-    margin-top: 5rem;
+    /* margin-top: 5rem; */
     margin-bottom: 5rem;
     letter-spacing: 1px;
+    font-weight: bold;
   }
 
   h3 {
@@ -44,10 +41,10 @@ export const ProjectsContainer = styled.div`
 export const ProjectImage = styled.div`
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  /* justify-content: center; */
   align-items: center;
   border: 2px solid var(--text-primary);
-  padding: 1rem;
+  padding: 1rem 2rem;
   height: 100%;
 
   &:hover {
@@ -77,6 +74,11 @@ export const Button = styled.div`
 
   @media only screen and (max-width: 650px) {
     flex-direction: column;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
   }
 
   a {

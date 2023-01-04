@@ -31,7 +31,6 @@ export const SubpageContainer = styled.div`
 `;
 
 export const SubpageGrid = styled.div`
-  margin-top: 4rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 3rem;
