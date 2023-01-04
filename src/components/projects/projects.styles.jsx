@@ -140,7 +140,7 @@ export const Programs = styled.div`
     font-weight: 500;
 
     @media only screen and (max-width: 650px) {
-      font-size: 0.8rem;
+      font-size: 0.5rem;
       letter-spacing: 1px;
     }
   }
