@@ -52,7 +52,7 @@ export const ProjectImage = styled.div`
   }
 
   @media only screen and (max-width: 650px) {
-    margin: 3rem 2rem;
+    margin: 3rem 0rem;
   }
 `;
 
