@@ -52,17 +52,18 @@ const Presentation = () => {
           </h5>
         </FadeInDiv>
         <SubpageContainer>
+          <h1 id="central">What do you need today?</h1>
           <FadeIn5Div>
             <SubpageGrid>
               <Link onClick={scrollToTop} to="/websites">
                 <SubpageImage>
-                  <h2>I create websites</h2>
+                  <h2>I need a website</h2>
                 </SubpageImage>
               </Link>
 
               <Link onClick={scrollToTop} to="/dev">
                 <SubpageImage>
-                  <h2>I'm a dev</h2>
+                  <h2>I need a dev</h2>
                 </SubpageImage>
               </Link>
 

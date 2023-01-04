@@ -53,6 +53,21 @@ export const PresentationContainer = styled.div`
     }
   }
 
+  #central {
+    text-align: center;
+    padding: 2rem;
+    font-weight: 500;
+    text-decoration: underline var(--text-primary);
+    text-underline-offset: 10px;
+
+    @media only screen and (max-width: 850px) {
+      padding: 0rem 0rem 2rem 0rem;
+      font-size: 1.2rem;
+      display: block;
+      margin: 0;
+    }
+  }
+
   h1 {
     font-size: 6rem;
     font-weight: 800;
