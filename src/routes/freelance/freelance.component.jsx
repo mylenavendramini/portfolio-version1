@@ -9,6 +9,7 @@ import Contact from "../../components/contact/contact.component";
 import { useRef, useState, Fragment } from "react";
 import { useOnClickOutside } from "../../hooks";
 import Vertical from "../../components/vertical/vertical.component";
+import Footer from "../footer/footer.component";
 
 const Freelance = () => {
   const node = useRef();
@@ -32,6 +33,7 @@ const Freelance = () => {
         <ProjectsImages />
         <Contact />
       </FreelanceContainer>
+      <Footer />
     </Fragment>
   );
 };

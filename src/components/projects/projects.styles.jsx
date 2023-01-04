@@ -108,9 +108,8 @@ export const Programs = styled.div`
   align-items: center;
 
   @media only screen and (max-width: 650px) {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    margin: auto 2rem;
+    display: flex;
+    flex-direction: column;
   }
 
   .smallerImg {
@@ -141,7 +140,7 @@ export const Programs = styled.div`
     font-weight: 500;
 
     @media only screen and (max-width: 650px) {
-      font-size: 1rem;
+      font-size: 0.8rem;
       letter-spacing: 1px;
     }
   }
