@@ -14,7 +14,7 @@ const Skills = () => {
     <Fragment>
       <SkillsContainer data-aos={"fade-up"} data-aos-duration={"3000"}>
         <h4>Main Skills:</h4>
-        <SkillsGrid>
+        <SkillsGrid id="center">
           <div>
             <h5 class="smallerImg">
               <img

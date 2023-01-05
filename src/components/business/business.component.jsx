@@ -2,7 +2,7 @@ import { useState } from "react";
 import { BusinessContainer, BusinessImage } from "./business.styles";
 
 const Business = () => {
-  const [firstToggle, setFirstToggle] = useState(true);
+  const [firstToggle, setFirstToggle] = useState(false);
   const [secondToggle, setSecondToggle] = useState(false);
   const [thirdToggle, setThirdToggle] = useState(false);
   const firstClickHandler = () => {
