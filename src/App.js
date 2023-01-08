@@ -24,9 +24,9 @@ import Freelance from "./routes/freelance/freelance.component";
 // import Travelling from "./routes/travelling/travelling.component";
 import Dev from "./routes/dev/dev.component";
 import Blog from "./components/blog/blog.component";
-import DevPostRoute from "./components/posts/dev-post.route";
-import DevPosts from "./components/posts/dev-posts.component";
-import DevPostRoute2 from "./components/posts/dev-post2.route";
+import DevPostRoute from "./routes/dev-post/dev-post.route";
+
+import DevPost from "./components/posts/dev-post.component";
 
 function App() {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -68,11 +68,13 @@ function App() {
         <Route path="/dev" element={<Dev />} />
         {/*<Route path="/viajamylena" element={<Travelling />} />*/}
         <Route path="*" element={<NotFound />} />
-        <Route path="/blog/*" element={<Blog />} />
-
-        <Route path="/posts/*" element={<DevPostRoute />}>
-          <Route path=":postId" element={<DevPostRoute2 />}></Route>
+        {/*<Route path="/blog/*" element={<Blog />} />*/}
+        <Route path="/blog/*" element={<Blog />}>
+          <Route path=":topicId" element={<DevPostRoute />}>
+            <Route path=":postId" element={<DevPost />} />
+          </Route>
         </Route>
+
         <Route
           path="/"
           element={
