@@ -44,6 +44,7 @@ export const ProjectsContainer = styled.div`
     @media only screen and (max-width: 650px) {
       font-weight: 600;
       font-size: 1.3rem;
+      text-align: center;
     }
   }
 
