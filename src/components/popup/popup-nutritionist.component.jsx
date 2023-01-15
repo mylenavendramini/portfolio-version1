@@ -18,7 +18,7 @@ const PopupNutritionist = ({ close }) => (
           <ModalClose onClick={close}>&times;</ModalClose>
           <ModalImage>
             <img
-              src="https://i.ibb.co/TL08XLH/nutricionist.png"
+              src="https://i.ibb.co/7bYN7PR/Design-sem-nome-1.png"
               alt="nutritionist"
             />
           </ModalImage>

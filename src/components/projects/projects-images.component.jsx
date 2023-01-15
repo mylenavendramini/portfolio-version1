@@ -16,17 +16,17 @@ const ProjectsImages = () => {
       <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"1000"}>
         <ProjectsGrid>
           <img
-            src="https://i.ibb.co/TL08XLH/nutricionist.png"
+            src="https://i.ibb.co/F6yt3C3/bakery.png"
             alt="nutritionist"
             id="img-1"
           />
           <TextContainer>
             {" "}
-            <h4>Nutritionist</h4>
-            <h2>Beautiful, intuitive and responsive site of a nutritionist.</h2>
+            <h4>Sweet Treats Bakery</h4>
+            <h2>Beautiful website for a bakery in London.</h2>
             <Button>
               <a
-                href="https://lucianaferreira.netlify.app/"
+                href="https://sweet-treats-bakery.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -50,6 +50,30 @@ const ProjectsImages = () => {
             <Button>
               <a
                 href="https://juliaalbuquerque.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <p>See Website</p>
+              </a>
+            </Button>
+          </TextContainer>
+        </ProjectsGrid>
+      </ProjectImage>
+
+      <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"1000"}>
+        <ProjectsGrid>
+          <img
+            src="https://i.ibb.co/5KBccMb/Design-sem-nome-1.png"
+            alt="nutritionist"
+            id="img-1"
+          />
+          <TextContainer>
+            {" "}
+            <h4>Nutritionist</h4>
+            <h2>Beautiful, intuitive and responsive site of a nutritionist.</h2>
+            <Button>
+              <a
+                href="https://lucianaferreira.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >
