@@ -54,11 +54,16 @@ function App() {
       <NavBarContainer>
         <NavBar />
         <LabelColorMode>
-          <InputColorMode
-            type="checkbox"
-            onClick={switchTheme}
-          ></InputColorMode>
-          <SpanColorMode></SpanColorMode>
+          {
+            <InputColorMode
+              type="checkbox"
+              onClick={switchTheme}
+            ></InputColorMode>
+          }
+          <SpanColorMode>
+            <img className="lighttheme" src="icons8-moon.png" alt="" />
+            <img className="darktheme" src="icons8-sun.png" alt="" />
+          </SpanColorMode>
         </LabelColorMode>
       </NavBarContainer>
       <Routes>
