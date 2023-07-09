@@ -16,7 +16,7 @@ const Skills = () => {
         <h4>Main Skills:</h4>
         <SkillsGrid id="center">
           <div>
-            <h5 class="smallerImg">
+            <h5 className="smallerImg">
               <img
                 className="darktheme"
                 src="icons8-javascript-white.png"

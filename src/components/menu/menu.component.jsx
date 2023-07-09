@@ -14,7 +14,7 @@ const Menu = ({ isBurgerOpen }) => {
 
         <a href="/dev">Dev</a>
         <a href="/websites">Websites</a>
-        <a href="/blog">Blog</a>
+        {/*<a href="/blog">Blog</a>*/}
         <a href="/about">About</a>
       </StyledMenu>
     </Fragment>

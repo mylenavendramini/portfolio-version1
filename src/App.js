@@ -28,7 +28,7 @@ import DevPostRoute from "./routes/dev-post/dev-post.route";
 
 import DevPost from "./components/posts/dev-post.component";
 
-function App() {
+function App () {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
 
   const [theme, setTheme] = useLocalStorage(
@@ -73,12 +73,12 @@ function App() {
         <Route path="/dev" element={<Dev />} />
         {/*<Route path="/viajamylena" element={<Travelling />} />*/}
         <Route path="*" element={<NotFound />} />
-        {/*<Route path="/blog/*" element={<Blog />} />*/}
-        <Route path="/blog/*" element={<Blog />}>
+
+        {/*<Route path="/blog/*" element={<Blog />}>
           <Route path=":topicId" element={<DevPostRoute />}>
             <Route path=":postId" element={<DevPost />} />
           </Route>
-        </Route>
+        </Route>*/}
 
         <Route
           path="/"

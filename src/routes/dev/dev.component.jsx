@@ -19,7 +19,7 @@ const Dev = () => {
       <DevContainer data-aos={"fade-up"} data-aos-duration={"1000"}>
         <h4>Projects and skills:</h4>
         <h1>
-          As a Front-End Developer, I have built{" "}
+          As a Software Engineer, I have built{" "}
           <a href="#projects">several projects</a>, where I developed my{" "}
           <a href="#skills">skills</a> mainly in HTML, CSS, JavaScript, React
           and TypeScript.
@@ -38,13 +38,13 @@ const Dev = () => {
           </a>{" "}
           to take a look at my CV.
         </h1>
-        <h1>
+        {/*<h1>
           &#10143; Check my{" "}
           <a href="/blog" rel="noreferrer">
             blog
           </a>{" "}
           before you go!
-        </h1>
+  </h1>*/}
 
         <div id="skills">
           {" "}

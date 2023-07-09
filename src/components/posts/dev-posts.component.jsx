@@ -59,7 +59,7 @@ const DevPosts = () => {
             display: firstToggle ? "grid" : "none",
           }}
         >
-          {topics[0].map(({ title, id, imgUrl, body }) => (
+          {topics[0]?.map(({ title, id, imgUrl, body }) => (
             <AllPostImage key={id}>
               <Link to={`/blog/all/${id}`} onClick={scrollToTop}>
                 <img src={imgUrl} alt="post" />
@@ -83,10 +83,9 @@ const DevPosts = () => {
             display: secondToggle ? "flex" : "none",
           }}
         >
-          {topics[1].map(({ name, id, imgUrl }) => (
+          {topics[1]?.map(({ name, id, imgUrl }) => (
             <AllPostImage key={id}>
               <Link to={id} onClick={scrollToTop}>
-                {/* <img src={imgUrl} alt="post" />*/}
                 <h2>{name}</h2>
               </Link>{" "}
             </AllPostImage>

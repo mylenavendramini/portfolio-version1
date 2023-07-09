@@ -40,9 +40,9 @@ const NavBar = () => {
             Dev
           </Link>
 
-          <Link onClick={scrollToTop} to="/blog">
+          {/* <Link onClick={scrollToTop} to="/blog">
             Blog
-          </Link>
+  </Link>*/}
           <Link onClick={scrollToTop} to="/websites">
             Websites
           </Link>
