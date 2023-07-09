@@ -39,7 +39,7 @@ const About = () => {
             specialized in JavaScript, React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, MySQL and more.
             <br />
             <br />
-            I have the privilege of being part of the esteemed team at DocCare, a private healthcare platform. As a Full Stack Software Engineer, I play a pivotal role my role encompassed a wide range of responsibilities in both client and server side.
+            I have the privilege of being part of the esteemed team at DocCare, a private healthcare platform. As a Full Stack Software Engineer, my role encompassed a wide range of responsibilities in both client and server side.
             <br />
             <br />
             I also manage and oversee the webpage for Toda Cidadã, an NGO dedicated to promoting debates about politics, economics, and constitutional rights.
