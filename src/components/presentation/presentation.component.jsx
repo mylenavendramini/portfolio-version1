@@ -2,79 +2,46 @@ import {
   PresentationContainer,
   Gradient,
   SubpageContainer,
-  SubpageGrid,
   SubpageImage,
   ContactContainer,
+  PresentationAnimation,
+  PresentationMain
 } from "./presentation.styles";
-
 import {
-  FadeInDiv,
   FadeIn5Div,
-  FadeIn8Div,
-  FadeIn10Div,
-  PulseDiv,
+  FadeInDiv,
 } from "../../animation";
 import { Link } from "react-router-dom";
 import Contact from "../contact/contact.component";
 import { Fragment } from "react";
+import { scrollToTop } from "../../helper";
 const Presentation = () => {
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
   return (
     <Fragment>
       <PresentationContainer>
-        <FadeInDiv>
-          <h3>
-            Hi! My name is <strong>Mylena Vendramini</strong> and I am a
-          </h3>
-        </FadeInDiv>
-        {/*<FadeIn5Div>
-        {" "}
-        <h2>MYLENA VENDRAMINI.</h2>
-      </FadeIn5Div>
-
-      <FadeIn8Div>
-        {" "}
-        <h3>I'm a</h3>
-  </FadeIn8Div>*/}
-        <FadeInDiv>
-          <PulseDiv>
-            {" "}
+        <PresentationMain>
+          <FadeInDiv>
+            <h2>
+              Mylena Vendramini
+            </h2>
             <Gradient>SOFTWARE ENGINEER</Gradient>
-            {/*<h6>FRONT-END DEVELOPER</h6>*/}
-          </PulseDiv>
-        </FadeInDiv>
-        <FadeInDiv>
-          {" "}
-          <h5>
-            based in London and passionate about building digital experiences.
-          </h5>
-        </FadeInDiv>
-        <SubpageContainer>
-          <h1 id="central">What do you need today?</h1>
-          <FadeIn5Div>
-            <SubpageGrid>
-              <Link onClick={scrollToTop} to="/websites">
+            <h3>
+              Building digital exeriences for the web.
+            </h3>
+          </FadeInDiv>
+          <SubpageContainer>
+            <FadeIn5Div>
+              <Link onClick={() => scrollToTop()} to="/dev">
                 <SubpageImage>
-                  <h2>I need a website</h2>
+                  <h2>Projects</h2>
                 </SubpageImage>
               </Link>
-
-              <Link onClick={scrollToTop} to="/dev">
-                <SubpageImage>
-                  <h2>I need a dev</h2>
-                </SubpageImage>
-              </Link>
-
-              {/*<SubpageImage data-aos={"zoom-in-up"} data-aos-duration={"3000"}>
-        <Link onClick={scrollToTop} to="/viajamylena">
-          <h2>I talk about travelling</h2>
-        </Link>
-</SubpageImage>*/}
-            </SubpageGrid>
-          </FadeIn5Div>
-        </SubpageContainer>
+            </FadeIn5Div>
+          </SubpageContainer>
+        </PresentationMain>
+        <PresentationAnimation>
+          <Link onClick={() => scrollToTop()} to="/dev"><lottie-player src="Programming.json" background="transparent" speed="0.5" loop autoplay>
+          </lottie-player></Link></PresentationAnimation>
       </PresentationContainer>
       <ContactContainer>
         <Contact />

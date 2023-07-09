@@ -78,7 +78,7 @@ export const RubberBandDiv = styled.div`
   animation-delay: 0s;
 `;
 
-export const ZoomInUpDiv = styled.div`
+export const ZoomInDiv = styled.div`
   animation: 2s ${zoomInUpAnimation};
   animation-delay: 0s;
 `;

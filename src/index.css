@@ -6,16 +6,11 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: scale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
 
 a {
@@ -24,32 +19,23 @@ a {
 }
 
 :root {
-  --background: white;
-  --text-primary: black;
+  --background: #fbfffe;
+  --text-primary: #171738;
   --text-secondary: rgb(146, 146, 146);
-  --tangerine: #ffa286;
-  --peach: #fcdcc8;
-  --rose: #fff4f2;
-  --aqua: #a5eacf;
-  --dark-aqua: #6ea08d;
+  --text-tertiary: #5eead4;
 }
 
-[data-theme="dark"] {
-  --background: black;
-  --text-primary: white;
+[data-theme='dark'] {
+  --background: #171738;
+  --text-primary: #fbfffe;
   --text-secondary: rgb(109, 106, 106);
-  --tangerine: #bbeedb;
-  --peach: #fcdcc8;
-  --rose: black;
-  --aqua: #bbeedb;
-  --dark-aqua: #6ea08d;
 }
 
-[data-theme="dark"] .darktheme {
+[data-theme='dark'] .darktheme {
   display: flex;
 }
 
-[data-theme="light"] .lighttheme {
+[data-theme='light'] .lighttheme {
   display: flex;
 }
 
