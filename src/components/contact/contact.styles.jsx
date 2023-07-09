@@ -42,7 +42,7 @@ export const FormContainer = styled.div`
     }
 
     @media only screen and (max-width: 650px) {
-      width: 20rem;
+      width: 15rem;
     }
 
   }
@@ -82,7 +82,7 @@ export const FormContainer = styled.div`
     }
 
     @media only screen and (max-width: 650px) {
-      width: 20rem;
+      width: 15rem;
     }
   }
 

@@ -14,7 +14,7 @@ export const PresentationContainer = styled.div`
 
   @media only screen and (max-width: 650px) {
     padding: 1rem 0 0 1rem;
-    margin: 2rem;
+    margin: 2rem 1rem;
   }
 
 `;
@@ -129,8 +129,6 @@ export const ContactContainer = styled.div`
 
   @media only screen and (max-width: 650px) {
     padding: 4rem 1rem 4rem 1rem;
-    margin-bottom: 5rem;
-    margin-top: 5rem;
-    margin-left: 2rem;
+    margin: 5rem 1rem;
   }
 `;
