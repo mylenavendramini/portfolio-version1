@@ -62,7 +62,7 @@ function App () {
           }
           <SpanColorMode>
             <img className="lighttheme" src="icons8-moon.png" alt="" />
-            <img className="darktheme" src="icons8-sun.png" alt="" />
+            <img className="darktheme" src="icons8-sun2.png" alt="" />
           </SpanColorMode>
         </LabelColorMode>
       </NavBarContainer>

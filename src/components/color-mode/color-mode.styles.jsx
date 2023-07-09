@@ -18,6 +18,8 @@ export const LabelColorMode = styled.label`
 `;
 
 export const SpanColorMode = styled.span`
+  display: flex;
+  align-items: center;
   position: absolute;
   cursor: pointer;
   top: 0;
