@@ -84,28 +84,7 @@ const ProjectsImages = () => {
         </ProjectsGrid>
       </ProjectImage>
 
-      <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"1000"}>
-        <ProjectsGrid>
-          <img
-            src="https://i.ibb.co/MZ6Njy8/travelwithme-responsive.png"
-            alt="travel-with-me"
-            id="img-3"
-          />
-          <TextContainer>
-            <h4>Travel With Me</h4>
-            <h2>Fully responsive and beautiful site of a travel organizer.</h2>
-            <Button>
-              <a
-                href="https://travelwithme-agency.netlify.app/"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <p>See Website</p>
-              </a>
-            </Button>
-          </TextContainer>
-        </ProjectsGrid>
-      </ProjectImage>
+
     </ProjectsContainer>
   );
 };

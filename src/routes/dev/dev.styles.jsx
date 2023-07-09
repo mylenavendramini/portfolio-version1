@@ -27,7 +27,7 @@ export const DevContainer = styled.div`
 
   h1 {
     font-size: 1.5rem;
-    text-align: justify;
+    text-align: left;
     font-weight: 500;
 
     a {

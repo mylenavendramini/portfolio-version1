@@ -9,7 +9,6 @@ import {
 
 import PopupThisAuthor from "../popup/popup-thisauthor.component";
 import PopupTodaCidada from "../popup/popup-todacidada.component";
-import PopupTravelWithMe from "../popup/popup-travelwithme.component";
 import PopupNutritionist from "../popup/popup-nutritionist.component";
 import PopupSalon from "../popup/popup-salon.component";
 import PopupJSQuiz from "../popup/popup-jsquiz.component";
@@ -77,23 +76,6 @@ const Projects = () => {
           </StyledPopup>
         </ProjectImage>
 
-        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
-          <StyledPopup
-            trigger={
-              <PopUpButtom>
-                <h3>Travel With Me</h3>
-                <h2>
-                  Fully responsive and beautiful website of a travel organizer.
-                </h2>
-                <Programs>
-                  <h4>HTML</h4> <h4>JS</h4> <h4>CSS</h4> <h4>REACT</h4>
-                </Programs>
-              </PopUpButtom>
-            }
-          >
-            {(close) => <PopupTravelWithMe close={close} />}
-          </StyledPopup>
-        </ProjectImage>
 
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <StyledPopup

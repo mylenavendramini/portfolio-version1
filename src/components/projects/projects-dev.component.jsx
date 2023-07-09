@@ -16,7 +16,275 @@ const ProjectsDev = () => {
       </h1>
       <ProjectsGrid>
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <h3>DocCare</h3>
+          <h2>Full Stack Software Engineer</h2>
+          <Programs>
+
+            <h4>
+
+              NEXT.JS
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-redux-white.png"
+                alt="redux"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-redux-black.png"
+                alt="redux"
+              />
+
+              REDUX
+            </h4>
+
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-mysql-white.png"
+                alt="mysql"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-mysql-black.png"
+                alt="mysql"
+              />
+              MYSQL
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+
+              SEQUELIZE
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-typescript-white.png"
+                alt="typescript"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-typescript-black.png"
+                alt="typescript"
+              />
+              TYPESCRIPT
+            </h4>
+
+            <h4 className="smallerImg2">
+              {" "}
+
+              CYPRESS
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+
+              CLOUDINARY
+            </h4>
+          </Programs>
+          <h2>
+            DocCare is a private healthcare platform, which prioritize the patients well-being and provide seamless access to quality medical care.
+          </h2>
+          <h2>
+            I had the pleasure of collaborating with a talented team and developed both the client and server components, ensuring a seamless integration between frontend and backend.
+          </h2>
+          <h2>Designed and implemented the underlying API and data modeling, integrated third-party authentication and implemented comprehensive end-to-end testing using Cypress.</h2>
+          <h2>Successfully planned and organised project tasks using Trello and incorporated Cloudinary to enhance the multimedia capabilities of the application.</h2>
+
+          <Button>
+            <a
+              href="https://github.com/mylenavendramini/DocCareApp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>See code</p>
+            </a>
+          </Button>
+        </ProjectImage>
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <h3>Wonderlist</h3>
+          <h2>Full Stack Software Engineer</h2>
+          <Programs>
+            <h4>
+              <img
+                className="darktheme"
+                src="icons8-react-white.png"
+                alt="React"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-react-black.png"
+                alt="React"
+              />
+              REACT
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-nodejs-white.png"
+                alt="nodejs"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-nodejs-black.png"
+                alt="nodejs"
+              />
+              NODE.JS
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-mongodb-white.png"
+                alt="mongodb"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-mongodb-black.png"
+                alt="mongodb"
+              />
+              MONGODB
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-express-white.png"
+                alt="express"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-express-black.png"
+                alt="express"
+              />
+              EXPRESS
+            </h4>
+          </Programs>
+          <h2>
+            Wonderlist is an application that empowers users to easily select and organize their trips.
+          </h2>
+          <h2>
+            Users effortlessly create travel collections, adding cities and dates to create a personalized itinerary.
+          </h2>
+          <h2>
+            With Wonderlist, users can plan activities for each day and keep track of the ones they've already enjoyed.
+          </h2>
+          <h2>
+            They can discover the perfect spots for each city using an interactive map and categorize them for a well-organized journey.
+          </h2>
+          <Button>
+            <a
+              href="https://github.com/mylenavendramini/wonderlist"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>See code</p>
+            </a>
+          </Button>
+        </ProjectImage>
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <h3>TinPet</h3>
+          <h2>Full Stack Software Engineer</h2>
+          <Programs>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-typescript-white.png"
+                alt="typescript"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-typescript-black.png"
+                alt="typescript"
+              />
+              TYPESCRIPT
+            </h4>
+            <h4>
+              <img
+                className="darktheme"
+                src="icons8-react-white.png"
+                alt="React"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-react-black.png"
+                alt="React"
+              />
+              REACT
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-nodejs-white.png"
+                alt="nodejs"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-nodejs-black.png"
+                alt="nodejs"
+              />
+              NODE.JS
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-postgresql-white.png"
+                alt="postgresql"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-postgresql-black.png"
+                alt="postgresql"
+              />
+              POSTGRESQL
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+
+              SEQUELIZE
+            </h4>
+            <h4 className="smallerImg2">
+              {" "}
+              <img
+                className="darktheme"
+                src="icons8-jest-white.png"
+                alt="jest"
+              />
+              <img
+                className="lighttheme"
+                src="icons8-jest-black.png"
+                alt="jest"
+              />
+              JEST
+            </h4>
+          </Programs>
+          <h2>
+            TinPet is the app that connects dog owners with compatible canine companions, fostering joyful adventures and lifelong bonds.
+          </h2>
+          <h2>
+            I played a pivotal role in a collaborative team, refactoring and modularising an online networking application, resulting in a 40% reduction in code complexity and a 35% enhancement in system performance.
+          </h2>
+
+          <Button>
+            <a
+              href=" Implemented unit testing using Jest, ensuring code quality and reliability with a 25% increase."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>See code</p>
+            </a>
+          </Button>
+        </ProjectImage>
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>This Author</h3>
+          <h2>Front End Software Engineer</h2>
           <Programs>
             <h4>
               {" "}
@@ -104,6 +372,7 @@ const ProjectsDev = () => {
         </ProjectImage>
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>JavaScript Quiz</h3>
+          <h2>Front End Software Engineer</h2>
           <Programs>
             <h4>
               {" "}
@@ -139,12 +408,7 @@ const ProjectsDev = () => {
             I created this Javascript Quiz test, where anyone can practice their
             knowledge in a fun way.
           </h2>
-          <h2>
-            The site is in constant development, because I'm always feeding it
-            with new questions. While I start my backend studies, my idea is to
-            make the user use the application in an even better way in the
-            future.
-          </h2>
+
           <Button>
             <a
               href="https://javascript-quiz-mv.netlify.app/"
@@ -163,152 +427,9 @@ const ProjectsDev = () => {
             </a>
           </Button>
         </ProjectImage>
-        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
-          <h3>Gym App</h3>
-          <Programs>
-            <h4>
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-react-white.png"
-                alt="React"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-react-black.png"
-                alt="React"
-              />
-              REACT
-            </h4>{" "}
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-typescript-white.png"
-                alt="typescript"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-typescript-black.png"
-                alt="typescript"
-              />
-              TYPESCRIPT
-            </h4>
-          </Programs>
-          <h2>
-            This is an app for anyone who wants a ready-made workout routine -
-            with the ability to change weight, reps, and intervals - or who
-            wants to create their own exercises. In the end, the user can print
-            his workout and send to his email.
-          </h2>
-          <h2>
-            React: I used tools like useParams, useState, useRef and routes
-            (react-router-dom). TypeScript: I used interface and type. Also, I
-            used emailJS, so the user can print his workout and send to his
-            email.
-          </h2>
-          <Button>
-            <a
-              href="https://mygymworkoutapp.netlify.app/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>See Website</p>
-            </a>
 
-            <a
-              href="https://github.com/mylenavendramini/gym-app"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>See code</p>
-            </a>
-          </Button>
-        </ProjectImage>
 
-        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
-          <h3>Toda Cidadã</h3>
-          <Programs>
-            <h4>
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-html-white.png"
-                alt="HTML"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-html-black.png"
-                alt="HTML"
-              />{" "}
-              HTML{" "}
-            </h4>{" "}
-            <h4 className="smallerImg">
-              {" "}
-              <img
-                className="darktheme "
-                src="icons8-javascript-white.png"
-                alt="JS"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-javascript-black.png"
-                alt="JS"
-              />
-              JS
-            </h4>{" "}
-            <h4>
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-css3-white.png"
-                alt="CSS"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-css3-black.png"
-                alt="CSS"
-              />
-              CSS
-            </h4>{" "}
-            <h4>
-              <img
-                className="darktheme"
-                src="icons8-react-white.png"
-                alt="React"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-react-black.png"
-                alt="React"
-              />
-              REACT
-            </h4>
-          </Programs>
-          <h2>
-            I am responsible for the whole webpage of Toda Cidadã, an NGO that
-            aims to promote debates about politics, economics and constitutional
-            rights.
-          </h2>
-          <h2>
-            The website is intuitive and easy to access and its design and
-            maintenance is carried out in accordance with the agreement with my
-            leader and my team.
-          </h2>
-          <Button>
-            <a href="https://todacidada.com/" target="_blank" rel="noreferrer">
-              <p>See Website</p>
-            </a>
 
-            <a
-              href="https://github.com/mylenavendramini/todacidada-version2-react"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <p>See code</p>
-            </a>
-          </Button>
-        </ProjectImage>
       </ProjectsGrid>
     </ProjectsContainer>
   );

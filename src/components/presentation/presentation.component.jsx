@@ -41,7 +41,7 @@ const Presentation = () => {
         <FadeInDiv>
           <PulseDiv>
             {" "}
-            <Gradient>FRONT-END DEVELOPER</Gradient>
+            <Gradient>SOFTWARE ENGINEER</Gradient>
             {/*<h6>FRONT-END DEVELOPER</h6>*/}
           </PulseDiv>
         </FadeInDiv>

@@ -106,6 +106,7 @@ export const Programs = styled.div`
   align-self: center;
   justify-content: center;
   align-items: center;
+  flex-wrap:wrap;
 
   @media only screen and (max-width: 650px) {
     display: flex;

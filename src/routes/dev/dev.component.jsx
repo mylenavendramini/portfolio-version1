@@ -19,16 +19,13 @@ const Dev = () => {
       <DevContainer data-aos={"fade-up"} data-aos-duration={"1000"}>
         <h4>Projects and skills:</h4>
         <h1>
-          As a Software Engineer, I have built{" "}
-          <a href="#projects">several projects</a>, where I developed my{" "}
-          <a href="#skills">skills</a> mainly in HTML, CSS, JavaScript, React
-          and TypeScript.
+          I am an experienced Full Stack Software Engineer proficient in a variety of technologies.
         </h1>
-
         <h1>
-          My background in Law made me acquire skills such as collaboration,
-          teamwork, communication and the ability to absorb and interpret
-          complex information and reach a well-crafted conclusion.
+          My skills include JavaScript, React, TypeScript, Next.js, Redux, Node.js, Express, Koa, MongoDB, Mongoose, PostgreSQL, MySQL, Sequelize, HTML, CSS, and more.
+        </h1>
+        <h1>
+          Additionally, I am skilled in Angular, Axios, Jest, Cypress, Socket.IO, Cloudinary, TailwindCSS, Ant Design, and MUI components.
         </h1>
         <br />
         <h1>
