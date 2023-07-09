@@ -34,7 +34,7 @@ export const AboutContainer = styled.div`
     font-weight: 800;
     display: inline;
   }
-  /* 
+  /*
   h1 {
     text-align: justify;
     margin-top: 12rem;
@@ -80,7 +80,7 @@ export const AboutContainer = styled.div`
   h5 {
     /* margin-top: 5rem;
     margin-bottom: 5rem; */
-    text-align: justify;
+    text-align: left;
     font-size: 1.5rem;
     font-weight: 500;
     line-height: 30px;
@@ -90,7 +90,7 @@ export const AboutContainer = styled.div`
       text-decoration: underline;
     }
   }
-  /* 
+  /*
   #aboutme {
     padding-bottom: 0rem;
     margin-bottom: 0rem;

@@ -67,30 +67,26 @@ const About = () => {
           >
             My name is Mylena Vendramini and I am a{" "}
             <Link onClick={scrollToTop} to="/dev">
-              Front-End developer
+              Software Engineer
             </Link>
             .
             <br />
             <br />
-            I am italian and brazilian, based in London and eligible to live and
-            work in UK/EU.
+            I am italian and brazilian, based in London.
             <br />
-            <br />I graduated in Law in the year 2017 and after a few years
-            working in the field, I understood that I had to work with something
-            I <i>truly love</i>
-            .
+            <br />I graduated in Law and worked in the field for a couple years, when I have developed skills in collaboration, teamwork, and effective communication. Transferring these skills to web development, I create engaging online experiences that deliver tangible results.
             <br />
             <br />
-            That's when I discovered my passion for coding and since 2021, I've
-            specialized in JavaScript and made some websites for fun. After a
-            few months, I had the opportunity to start working with an NGO that
-            aims to promote debates about politics, economics and constitutional
-            rights.
+            Since I discovered my <i>passion for coding</i>, I've
+            specialized in JavaScript, React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, MySQL and more.
             <br />
             <br />
-            At the same time, I started to learn React and TypeScript, which I
-            use in almost all my websites today. I really love what I do.
-            <br /> <br />
+            I have the privilege of being part of the esteemed team at DocCare, a private healthcare platform. As a Full Stack Software Engineer, I play a pivotal role my role encompassed a wide range of responsibilities in both client and server side.
+            <br />
+            <br />
+            I also manage and oversee the webpage for Toda Cidadã, an NGO dedicated to promoting debates about politics, economics, and constitutional rights.
+            <br />
+            <br />
             In my free time, I love to travel (I was a digital nomad for a year
             🛫), writing (sometimes I like to write fictional stories 📝) and a
             good coffee (always ☕️).
