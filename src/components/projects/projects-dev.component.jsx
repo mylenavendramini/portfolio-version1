@@ -19,68 +19,31 @@ const ProjectsDev = () => {
           <h3>DocCare</h3>
           <h2>Full Stack Software Engineer</h2>
           <Programs>
-
             <h4>
-
               NEXT.JS
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-redux-white.png"
-                alt="redux"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-redux-black.png"
-                alt="redux"
-              />
-
+            <h4>
               REDUX
             </h4>
 
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-mysql-white.png"
-                alt="mysql"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-mysql-black.png"
-                alt="mysql"
-              />
+            <h4>
+
               MYSQL
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
+            <h4>
 
               SEQUELIZE
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-typescript-white.png"
-                alt="typescript"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-typescript-black.png"
-                alt="typescript"
-              />
+            <h4>
+
               TYPESCRIPT
             </h4>
 
-            <h4 className="smallerImg2">
-              {" "}
+            <h4>
 
               CYPRESS
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
+            <h4>
 
               CLOUDINARY
             </h4>
@@ -109,58 +72,16 @@ const ProjectsDev = () => {
           <h2>Full Stack Software Engineer</h2>
           <Programs>
             <h4>
-              <img
-                className="darktheme"
-                src="icons8-react-white.png"
-                alt="React"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-react-black.png"
-                alt="React"
-              />
+
               REACT
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-nodejs-white.png"
-                alt="nodejs"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-nodejs-black.png"
-                alt="nodejs"
-              />
+            <h4>
               NODE.JS
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-mongodb-white.png"
-                alt="mongodb"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-mongodb-black.png"
-                alt="mongodb"
-              />
+            <h4>
               MONGODB
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-express-white.png"
-                alt="express"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-express-black.png"
-                alt="express"
-              />
+            <h4>
               EXPRESS
             </h4>
           </Programs>
@@ -190,78 +111,22 @@ const ProjectsDev = () => {
           <h3>TinPet</h3>
           <h2>Full Stack Software Engineer</h2>
           <Programs>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-typescript-white.png"
-                alt="typescript"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-typescript-black.png"
-                alt="typescript"
-              />
+            <h4>
               TYPESCRIPT
             </h4>
             <h4>
-              <img
-                className="darktheme"
-                src="icons8-react-white.png"
-                alt="React"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-react-black.png"
-                alt="React"
-              />
               REACT
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-nodejs-white.png"
-                alt="nodejs"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-nodejs-black.png"
-                alt="nodejs"
-              />
+            <h4>
               NODE.JS
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-postgresql-white.png"
-                alt="postgresql"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-postgresql-black.png"
-                alt="postgresql"
-              />
+            <h4>
               POSTGRESQL
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-
+            <h4>
               SEQUELIZE
             </h4>
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-jest-white.png"
-                alt="jest"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-jest-black.png"
-                alt="jest"
-              />
+            <h4>
               JEST
             </h4>
           </Programs>
@@ -287,62 +152,18 @@ const ProjectsDev = () => {
           <h2>Front End Software Engineer</h2>
           <Programs>
             <h4>
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-html-white.png"
-                alt="HTML"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-html-black.png"
-                alt="HTML"
-              />{" "}
-              HTML{" "}
-            </h4>{" "}
-            <h4 className="smallerImg">
-              {" "}
-              <img
-                className="darktheme "
-                src="icons8-javascript-white.png"
-                alt="JS"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-javascript-black.png"
-                alt="JS"
-              />
+              HTML
+            </h4>
+            <h4>
               JS
-            </h4>{" "}
+            </h4>
             <h4>
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-css3-white.png"
-                alt="CSS"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-css3-black.png"
-                alt="CSS"
-              />
               CSS
-            </h4>{" "}
+            </h4>
             <h4>
-              <img
-                className="darktheme"
-                src="icons8-react-white.png"
-                alt="React"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-react-black.png"
-                alt="React"
-              />
               REACT
             </h4>
           </Programs>
-
           <h2>
             Exhibition of the author's books, biography and reviews on a website
             that really represents her personality.
@@ -375,31 +196,9 @@ const ProjectsDev = () => {
           <h2>Front End Software Engineer</h2>
           <Programs>
             <h4>
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-react-white.png"
-                alt="React"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-react-black.png"
-                alt="React"
-              />
               REACT
-            </h4>{" "}
-            <h4 className="smallerImg2">
-              {" "}
-              <img
-                className="darktheme"
-                src="icons8-typescript-white.png"
-                alt="typescript"
-              />
-              <img
-                className="lighttheme"
-                src="icons8-typescript-black.png"
-                alt="typescript"
-              />
+            </h4>
+            <h4>
               TYPESCRIPT
             </h4>
           </Programs>

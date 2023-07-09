@@ -113,32 +113,11 @@ export const Programs = styled.div`
     flex-direction: column;
   }
 
-  .smallerImg {
-    img {
-      width: 45%;
-
-      @media only screen and (max-width: 650px) {
-        width: 35%;
-      }
-    }
-  }
-
-  .smallerImg2 {
-    img {
-      width: 20%;
-    }
-  }
-
-  img {
-    margin-right: 5px;
-  }
-
   h4 {
-    padding: 0 0.5rem 0 0.5rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    padding: 0.5rem;
     font-weight: 500;
+    border: 2px solid var(--text-primary);
+    margin-right: 0.3rem;
 
     @media only screen and (max-width: 650px) {
       font-size: 0.5rem;
