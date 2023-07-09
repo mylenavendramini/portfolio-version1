@@ -1,29 +1,23 @@
 import styled from "styled-components";
 
 export const ContactContainer = styled.div`
-  h1 {
-    font-size: 1.5rem;
-    text-align: justify;
-    letter-spacing: 1px;
-  }
-
   p {
-    font-size: 1.5rem;
-    letter-spacing: 0.5px;
+    font-size: 1.3rem;
     font-weight: 500;
   }
 
   a {
     text-decoration: none;
-    /* padding: 1rem; */
-    font-size: 1.5rem;
-    font-weight: 700;
+    font-size: 1.3rem;
+    font-weight: bold;
     transition: color 0.3s linear;
-    color: var(--text-primary);
+    color: var(--text-tertiary);
     outline: none;
     text-shadow: none;
   }
 `;
+
+
 
 export const FormContainer = styled.div`
   display: flex;
@@ -50,13 +44,23 @@ export const FormContainer = styled.div`
     @media only screen and (max-width: 650px) {
       width: 20rem;
     }
+
   }
 
   button {
     width: 6rem;
     cursor: pointer;
     font-weight: bold;
+    color: var(--text-tertiary);
+    border: 2px solid var(--text-tertiary);
+
+    &:hover{
+      background-color: var(--text-tertiary);
+      color: var(--background)
+    }
   }
+
+
 
   textarea {
     font-size: 1.2rem;

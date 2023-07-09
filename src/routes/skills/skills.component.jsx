@@ -237,13 +237,6 @@ const Skills = () => {
             <h5> UX/UI</h5>
           </div>
         </SkillsGrid>
-
-        <h4>Languages I speak fluent:</h4>
-        <SkillsGrid>
-          <h5>&#10143; en-US English </h5>
-          <h5>&#10143; es-ES Español </h5>
-          <h5>&#10143; pt-BR Português</h5>
-        </SkillsGrid>
       </SkillsContainer>
 
       <FooterContainer>

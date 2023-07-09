@@ -14,53 +14,11 @@ const About = () => {
     <Fragment>
       <Vertical />
       <AboutContainer>
-        {/*<FadeIn5Div>
-          <PulseDiv>
-            {" "}
-            <h2>I'm Mylena Vendramini, a </h2>
-            <Gray>front-end developer</Gray>
-            <h2>
-              , driven by challenging work and truly passionate about what I do.
-            </h2>
-          </PulseDiv>
-  </FadeIn5Div>*/}
-        {/*
-        <h1
-          data-aos={"fade-up"}
-          data-aos-duration={"2000"}
-          data-aos-delay={"500"}
-        >
-          Click{" "}
-          <a href="/resume.pdf" target="_blank" rel="noreferrer">
-            here
-          </a>{" "}
-          to take a look at my CV.
-</h1>*/}
-
-        {/*<h6
-          data-aos={"fade-up"}
-          data-aos-duration={"2000"}
-          data-aos-delay={"500"}
-        >
-          <LinkedinLink
-            href="https://www.linkedin.com/in/mylenavendramini/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            in
-          </LinkedinLink>
-  </h6>
-        <FadeIn10Div>
-          <ScrollDown to="aboutme" spy={true} smooth={true}>
-            <h6>Scroll down &#8675;</h6>
-          </ScrollDown>
-        </FadeIn10Div>*/}
-
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
           About me:
         </h4>
         <AboutGrid>
-          <h5
+          <h3
             data-aos={"fade-up"}
             data-aos-duration={"1000"}
             data-aos-delay={"100"}
@@ -90,7 +48,7 @@ const About = () => {
             In my free time, I love to travel (I was a digital nomad for a year
             🛫), writing (sometimes I like to write fictional stories 📝) and a
             good coffee (always ☕️).
-          </h5>
+          </h3>
           <img
             data-aos={"fade-up"}
             data-aos-duration={"1000"}

@@ -19,55 +19,19 @@ export const AboutContainer = styled.div`
     margin: 0 2rem 0 2rem;
   }
 
-  h2 {
-    font-size: 1.8rem;
-    display: inline;
-    letter-spacing: 2px;
-
-    @media only screen and (max-width: 650px) {
-      font-size: 1.6rem;
-    }
-  }
-
   h3 {
-    font-size: 2rem;
-    font-weight: 800;
-    display: inline;
-  }
-  /*
-  h1 {
-    text-align: justify;
-    margin-top: 12rem;
-    margin-bottom: 1rem;
-    font-size: 1.5rem;
-    line-height: 30px;
-    letter-spacing: 1px;
+    font-size: 1.3rem;
     font-weight: 500;
 
-    @media only screen and (max-width: 650px) {
-      margin-top: 3rem;
-      font-size: 1.4rem;
-    }
-  } */
-
-  h6 {
-    a {
-      text-decoration: none;
+    @media only screen and (max-width: 1200px) {
       font-size: 1.2rem;
-      font-weight: 800;
-      transition: color 0.1s;
-      color: var(--text-primary);
-      outline: none;
-      text-shadow: none;
-      border: 1.5px solid var(--text-primary);
-      border-radius: 10%;
-      padding: 0px 3px 0px 3px;
-      cursor: pointer;
-
-      &:hover {
-        color: var(--text-secondary);
-        border: 1.5px solid var(--text-secondary);
-      }
+    }
+    @media only screen and (max-width: 650px) {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+    a {
+      color: var(--text-tertiary);
     }
   }
 
@@ -77,28 +41,6 @@ export const AboutContainer = styled.div`
     letter-spacing: 1px;
   }
 
-  h5 {
-    /* margin-top: 5rem;
-    margin-bottom: 5rem; */
-    text-align: left;
-    font-size: 1.5rem;
-    font-weight: 500;
-    line-height: 30px;
-    letter-spacing: 0.5px;
-
-    a {
-      text-decoration: underline;
-    }
-  }
-  /*
-  #aboutme {
-    padding-bottom: 0rem;
-    margin-bottom: 0rem;
-
-    @media only screen and (max-width: 1150px) {
-      margin-bottom: -5rem;
-    }
-  } */
 
   a {
     /* color: var(--text-secondary); */
@@ -109,9 +51,6 @@ export const AboutContainer = styled.div`
     outline: none;
     text-shadow: none;
 
-    /* &:hover {
-      text-shadow: 0 0 1px var(--text-primary);
-    } */
   }
 `;
 
@@ -121,22 +60,10 @@ export const AboutGrid = styled.div`
   grid-template-columns: 2fr 1fr;
   gap: 2rem;
 
-  h5 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-
   img {
     width: 100%;
   }
 
-  @media only screen and (max-width: 1350px) {
-    display: block;
-
-    h5 {
-      padding: 0rem;
-    }
-  }
 `;
 
 export const FooterContainer = styled.div`

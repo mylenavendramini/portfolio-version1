@@ -1,8 +1,6 @@
 import {
   DevContact,
   DevContainer,
-  FreelanceGrid,
-  FreelanceImage,
 } from "./dev.styles";
 import Footer from "../footer/footer.component";
 import Skills from "../skills/skills.component";
@@ -18,23 +16,23 @@ const Dev = () => {
       <Vertical />
       <DevContainer data-aos={"fade-up"} data-aos-duration={"1000"}>
         <h4>Projects and skills:</h4>
-        <h1>
+        <h3>
           I am an experienced Full Stack Software Engineer proficient in a variety of technologies.
-        </h1>
-        <h1>
+        </h3>
+        <h3>
           My skills include JavaScript, React, TypeScript, Next.js, Redux, Node.js, Express, Koa, MongoDB, Mongoose, PostgreSQL, MySQL, Sequelize, HTML, CSS, and more.
-        </h1>
-        <h1>
+        </h3>
+        <h3>
           Additionally, I am skilled in Angular, Axios, Jest, Cypress, Socket.IO, Cloudinary, TailwindCSS, Ant Design, and MUI components.
-        </h1>
+        </h3>
         <br />
-        <h1>
+        <h3>
           &#10143; Click{" "}
           <a href="/resume.pdf" target="_blank" rel="noreferrer">
             here
           </a>{" "}
           to take a look at my CV.
-        </h1>
+        </h3>
         {/*<h1>
           &#10143; Check my{" "}
           <a href="/blog" rel="noreferrer">

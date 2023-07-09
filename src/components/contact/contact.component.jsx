@@ -3,7 +3,7 @@ import { ContactContainer, FormContainer } from "./contact.styles";
 const Contact = () => {
   return (
     <ContactContainer id="contact">
-      <h1>Keep in touch!</h1>
+      <h2>Keep in touch!</h2>
       <p>
         You can send an email directly to{" "}
         <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">

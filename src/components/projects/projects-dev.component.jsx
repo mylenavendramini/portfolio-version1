@@ -1,3 +1,4 @@
+import { SkillsGrid } from "../../routes/skills/skills.styles";
 import Contact from "../contact/contact.component";
 import {
   ProjectsContainer,
@@ -25,26 +26,19 @@ const ProjectsDev = () => {
             <h4>
               REDUX
             </h4>
-
             <h4>
-
               MYSQL
             </h4>
             <h4>
-
               SEQUELIZE
             </h4>
             <h4>
-
               TYPESCRIPT
             </h4>
-
             <h4>
-
               CYPRESS
             </h4>
             <h4>
-
               CLOUDINARY
             </h4>
           </Programs>
@@ -226,10 +220,8 @@ const ProjectsDev = () => {
             </a>
           </Button>
         </ProjectImage>
-
-
-
       </ProjectsGrid>
+
     </ProjectsContainer>
   );
 };

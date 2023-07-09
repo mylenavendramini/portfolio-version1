@@ -74,6 +74,7 @@ export const ProjectImage = styled.div`
       text-shadow: 0 0 1px var(--text-primary);
     }
   }
+
 `;
 
 export const PopUpButtom = styled.button`
@@ -84,6 +85,8 @@ export const PopUpButtom = styled.button`
   flex-direction: column;
   align-items: center;
   border: none;
+
+
 `;
 
 export const StyledPopup = styled(Popup)`
@@ -104,7 +107,7 @@ export const StyledPopup = styled(Popup)`
 export const Programs = styled.div`
   display: flex;
   align-self: center;
-  justify-content: center;
+  justify-content: left;
   align-items: center;
   flex-wrap:wrap;
 
@@ -114,9 +117,12 @@ export const Programs = styled.div`
   }
 
   h4 {
+    font-size: 1rem !important;
     padding: 0.5rem;
     font-weight: 500;
-    border: 2px solid var(--text-primary);
+    color: var(--text-tertiary);
+    background-color: var(--text-secondary);
+    /* border: 2px solid var(--text-tertiary); */
     margin-right: 0.3rem;
 
     @media only screen and (max-width: 650px) {
@@ -124,4 +130,6 @@ export const Programs = styled.div`
       letter-spacing: 1px;
     }
   }
+
+
 `;

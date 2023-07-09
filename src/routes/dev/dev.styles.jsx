@@ -18,6 +18,23 @@ export const DevContainer = styled.div`
     margin: 0 2rem 0 2rem;
   }
 
+  h3 {
+    font-size: 1.3rem;
+    font-weight: 500;
+
+    @media only screen and (max-width: 1200px) {
+      font-size: 1.2rem;
+    }
+    @media only screen and (max-width: 650px) {
+      font-size: 1.5rem;
+      font-weight: 500;
+    }
+
+    a {
+      color: var(--text-tertiary);
+    }
+  }
+
   h4 {
     font-size: 1.5rem;
     text-align: justify;
@@ -30,10 +47,7 @@ export const DevContainer = styled.div`
     text-align: left;
     font-weight: 500;
 
-    a {
-      /* color: rgb(78, 75, 75); */
-      text-decoration: underline;
-    }
+
 
     @media only screen and (max-width: 650px) {
       font-size: 1.3rem;

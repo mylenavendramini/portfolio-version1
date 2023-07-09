@@ -37,15 +37,15 @@ const NavBar = () => {
           </Link>
 
           <Link onClick={scrollToTop} to="/dev">
-            Dev
+            Portfolio
           </Link>
 
           {/* <Link onClick={scrollToTop} to="/blog">
             Blog
-  </Link>*/}
+  </Link>
           <Link onClick={scrollToTop} to="/websites">
             Websites
-          </Link>
+          </Link>*/}
         </NavLinks>
         <div ref={node}>
           <Burger

@@ -33,7 +33,7 @@ const Presentation = () => {
             <FadeIn5Div>
               <Link onClick={() => scrollToTop()} to="/dev">
                 <SubpageImage>
-                  <h2>Projects</h2>
+                  <h2>Portfolio</h2>
                 </SubpageImage>
               </Link>
             </FadeIn5Div>

@@ -12,9 +12,10 @@ const Menu = ({ isBurgerOpen }) => {
           <a href="/">MV </a>
         </Logo>
 
-        <a href="/dev">Dev</a>
-        <a href="/websites">Websites</a>
-        {/*<a href="/blog">Blog</a>*/}
+        <a href="/dev">Portfolio</a>
+
+        {/*<a href="/blog">Blog</a>
+      <a href="/websites">Websites</a>*/}
         <a href="/about">About</a>
       </StyledMenu>
     </Fragment>

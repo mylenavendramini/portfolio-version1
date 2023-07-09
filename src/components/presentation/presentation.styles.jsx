@@ -112,8 +112,8 @@ export const SubpageImage = styled.div`
     text-transform: uppercase;
     font-weight:bold;
     cursor: pointer;
-
   }
+
 `;
 
 export const ContactContainer = styled.div`
