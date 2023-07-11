@@ -12,11 +12,11 @@ import { Programs } from "./projects.styles";
 const ProjectsDev = () => {
   return (
     <ProjectsContainer>
-      <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
+      {/*<h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
         These are some of my projects:
-      </h1>
+  </h1>*/}
       <ProjectsGrid>
-        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+        {/*<ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>DocCare</h3>
           <h2>Full Stack Software Engineer</h2>
           <Programs>
@@ -60,7 +60,7 @@ const ProjectsDev = () => {
               <p>See code</p>
             </a>
           </Button>
-        </ProjectImage>
+</ProjectImage>*/}
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <h3>Wonderlist</h3>
           <h2>Full Stack Software Engineer</h2>
@@ -134,6 +134,39 @@ const ProjectsDev = () => {
           <Button>
             <a
               href=" Implemented unit testing using Jest, ensuring code quality and reliability with a 25% increase."
+              target="_blank"
+              rel="noreferrer"
+            >
+              <p>See code</p>
+            </a>
+          </Button>
+        </ProjectImage>
+        <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
+          <h3>Custom Designer Portfolio</h3>
+          <h2>Front End Software Engineer</h2>
+          <Programs>
+            <h4>HTML</h4>
+            <h4>CSS</h4>
+            <h4>
+              REACT
+            </h4>
+            <h4>
+              JS
+            </h4>
+            <h4>
+              NODE.JS
+            </h4>
+
+          </Programs>
+          <h2>
+            Website showcasing the work of a custom designer's client.
+          </h2>
+          <h2>
+            Employed responsive web design principles and attention to detail, delivering seamless user experiences.
+          </h2>
+          <Button>
+            <a
+              href="https://github.com/mylenavendramini/wonderlist"
               target="_blank"
               rel="noreferrer"
             >

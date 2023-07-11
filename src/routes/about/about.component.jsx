@@ -15,7 +15,7 @@ const About = () => {
       <Vertical />
       <AboutContainer>
         <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
-          About me:
+          About me
         </h4>
         <AboutGrid>
           <h3
@@ -32,14 +32,14 @@ const About = () => {
             <br />
             I am italian and brazilian, based in London.
             <br />
-            <br />I graduated in Law and worked in the field for a couple years, when I have developed skills in collaboration, teamwork, and effective communication. Transferring these skills to web development, I create engaging online experiences that deliver tangible results.
+            <br />I graduated in Law and worked in the field for a few years, when I have developed skills in collaboration, teamwork, and effective communication. Transferring these skills to web development, I create engaging online experiences that deliver tangible results.
             <br />
             <br />
             Since I discovered my <i>passion for coding</i>, I've
             specialized in JavaScript, React, Next.js, TypeScript, Node.js, MongoDB, PostgreSQL, MySQL and more.
             <br />
             <br />
-            I have the privilege of being part of the esteemed team at DocCare, a private healthcare platform. As a Full Stack Software Engineer, my role encompassed a wide range of responsibilities in both client and server side.
+            I have the privilege of being part of a collaborative team at DocCare, a private healthcare platform, working as a Full Stack Software Engineer.
             <br />
             <br />
             I also manage and oversee the webpage for Toda Cidadã, an NGO dedicated to promoting debates about politics, economics, and constitutional rights.

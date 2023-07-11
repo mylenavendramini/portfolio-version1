@@ -15,23 +15,18 @@ const Dev = () => {
     <Fragment>
       <Vertical />
       <DevContainer data-aos={"fade-up"} data-aos-duration={"1000"}>
-        <h4>Projects and skills:</h4>
+        <h4>Projects</h4>
+
         <h3>
-          I am an experienced Full Stack Software Engineer proficient in a variety of technologies.
-        </h3>
-        <h3>
-          My skills include JavaScript, React, TypeScript, Next.js, Redux, Node.js, Express, Koa, MongoDB, Mongoose, PostgreSQL, MySQL, Sequelize, HTML, CSS, and more.
-        </h3>
-        <h3>
-          Additionally, I am skilled in Angular, Axios, Jest, Cypress, Socket.IO, Cloudinary, TailwindCSS, Ant Design, and MUI components.
-        </h3>
-        <br />
-        <h3>
-          &#10143; Click{" "}
+          &#10143; You can click {" "}
           <a href="/resume.pdf" target="_blank" rel="noreferrer">
             here
           </a>{" "}
-          to take a look at my CV.
+          to see my CV.
+        </h3>
+        <h3>
+          I have experience building full stack and frontend applications with creativity and professionalism.
+          Please, check out some of my main projects!
         </h3>
         {/*<h1>
           &#10143; Check my{" "}
@@ -39,12 +34,12 @@ const Dev = () => {
             blog
           </a>{" "}
           before you go!
-  </h1>*/}
+  </h1>
 
         <div id="skills">
           {" "}
           <Skills />
-        </div>
+        </div>*/}
 
         <div id="projects">
           {" "}

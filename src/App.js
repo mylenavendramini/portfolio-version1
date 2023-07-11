@@ -27,6 +27,7 @@ import Blog from "./components/blog/blog.component";
 import DevPostRoute from "./routes/dev-post/dev-post.route";
 
 import DevPost from "./components/posts/dev-post.component";
+import Skills from "./routes/skills/skills.component";
 
 function App () {
   const defaultDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
@@ -70,7 +71,8 @@ function App () {
         <Route path="/about" element={<About />} />
 
         <Route path="/websites" element={<Freelance />} />
-        <Route path="/dev" element={<Dev />} />
+        <Route path="/portfolio" element={<Dev />} />
+        <Route path="/skills" element={<Skills />} />
         {/*<Route path="/viajamylena" element={<Travelling />} />*/}
         <Route path="*" element={<NotFound />} />
 

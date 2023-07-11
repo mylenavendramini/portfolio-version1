@@ -61,7 +61,17 @@ export const SkillsContainer = styled.div`
   .smallerImg {
     img {
       width: 10%;
+      @media only screen and (max-width: 1350px) {
+        width: 5%;
+        height: auto;
     }
+
+    @media only screen and (max-width: 650px) {
+        width: 10%;
+        height: auto;
+    }
+    }
+
   }
 
   h5 {

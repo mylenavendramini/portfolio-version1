@@ -2,18 +2,15 @@ import {
   SkillsContainer,
   SkillsGrid,
   FooterContainer,
-  LinkedinLink,
-  ScrollDown,
 } from "./skills.styles";
-import { FadeIn5Div, FadeIn10Div, PulseDiv } from "../../animation";
+import { DevContainer } from "../dev/dev.styles";
 
-import { Fragment } from "react";
 
 const Skills = () => {
   return (
-    <Fragment>
+    <DevContainer>
       <SkillsContainer data-aos={"fade-up"} data-aos-duration={"3000"}>
-        <h4>Main Skills:</h4>
+        <h4>Skills</h4>
         <SkillsGrid id="center">
           <div>
             <h5 className="smallerImg">
@@ -244,7 +241,7 @@ const Skills = () => {
           myvendramini@gmail.com
         </a>
       </FooterContainer>
-    </Fragment>
+    </DevContainer>
   );
 };
 

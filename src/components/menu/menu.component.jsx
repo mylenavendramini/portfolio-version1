@@ -12,7 +12,8 @@ const Menu = ({ isBurgerOpen }) => {
           <a href="/">MV </a>
         </Logo>
 
-        <a href="/dev">Portfolio</a>
+        <a href="/portfolio">Portfolio</a>
+        <a href="/skills">Skills</a>
 
         {/*<a href="/blog">Blog</a>
       <a href="/websites">Websites</a>*/}
