@@ -1,12 +1,10 @@
-import { useRef, useState, Fragment } from "react";
+import { useRef, useState } from "react";
 import { useOnClickOutside } from "../../hooks";
-
 import {
   NavBarContainer,
   Logo,
   NavLinks,
-  NavLink,
-  LinkToAbout,
+
 } from "./navbar.styles";
 
 import Burger from "../../components/burger/burger.component";
@@ -15,7 +13,6 @@ import { Link } from "react-router-dom";
 import { scrollToTop } from "../../helper";
 
 const NavBar = () => {
-  //burger
   const node = useRef();
   useOnClickOutside(node, () => {
     setIsBurgerOpen(false);
@@ -23,30 +20,21 @@ const NavBar = () => {
   const [isBurgerOpen, setIsBurgerOpen] = useState(false);
 
   return (
-    <Fragment>
+    <>
       <NavBarContainer>
         <Logo>
           <a href="/">MV</a>
         </Logo>
-
         <NavLinks>
           <Link onClick={() => scrollToTop()} to="/about">
             About
           </Link>
-
           <Link onClick={() => scrollToTop()} to="/portfolio">
             Portfolio
           </Link>
           <Link onClick={() => scrollToTop()} to="/skills">
             Skills
           </Link>
-
-          {/* <Link onClick={() => scrollToTop()} to="/blog">
-            Blog
-  </Link>
-          <Link onClick={() => scrollToTop()} to="/websites">
-            Websites
-          </Link>*/}
         </NavLinks>
         <div ref={node}>
           <Burger
@@ -56,9 +44,7 @@ const NavBar = () => {
           <Menu isBurgerOpen={isBurgerOpen} setIsBurgerOpen={setIsBurgerOpen} />
         </div>
       </NavBarContainer>
-
-      {/*     <Outlet />*/}
-    </Fragment>
+    </>
   );
 };
 

@@ -9,7 +9,6 @@ export const PopUpContent = styled.div`
   height: auto;
   background-color: transparent;
   padding: 1rem 2rem;
-  /* box-shadow: 0 4rem 6rem rgba(0, 0, 0, 0.3); */
   z-index: 1000;
   transition: all 0.5s;
 

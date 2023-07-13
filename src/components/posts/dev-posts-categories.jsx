@@ -7,15 +7,12 @@ import {
   AllPostsContainer,
   AllPostImage,
   Gradient,
-  BlogDescrible,
 } from "./posts.styles";
 import { scrollToTop } from "../../helper";
 
 const DevPostCategories = () => {
   const { topicId } = useParams();
   const topic = getTopic(topicId);
-
-
   const navigate = useNavigate();
   const goBack = () => {
     navigate("/blog");

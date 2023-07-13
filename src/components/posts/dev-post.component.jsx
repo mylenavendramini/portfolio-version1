@@ -1,6 +1,5 @@
 import React from "react";
 import {
-
   PostContent,
   PostImage,
   GaleryPosts,
@@ -13,10 +12,9 @@ import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { scrollToTop } from "../../helper";
 
-// Post itself:
 const DevPost = () => {
   const { topicId, postId } = useParams();
-  const { title, id, body, imgUrl } = getPost({
+  const { id, body, imgUrl } = getPost({
     topicId,
     postId,
   });
@@ -26,8 +24,6 @@ const DevPost = () => {
     navigate("/blog");
     window.scrollTo(0, 0);
   };
-
-
 
   return (
     <div>
@@ -42,10 +38,8 @@ const DevPost = () => {
             <h3>{text}</h3>
           ))}
         </PostContent>
-
         <GaleryPosts>
           <h1>You might also like:</h1>
-
           {allPosts
             .filter((_, idx) => idx < 4)
             .map((sub) => (
@@ -63,7 +57,6 @@ const DevPost = () => {
           </a>{" "}
         </PostContent>
       </ContainerWithSideBar>
-
     </div>
   );
 };

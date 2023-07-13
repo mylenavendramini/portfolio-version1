@@ -7,8 +7,7 @@ import {
   WebsiteButton,
   Link,
 } from "./popup.styles";
-
-import { RubberBandDiv, FadeInDiv } from "../../animation";
+import { FadeInDiv } from "../../animation";
 
 const PopupNutritionist = ({ close }) => (
   <div>

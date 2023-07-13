@@ -4,29 +4,20 @@ import NavBar from "./components/navbar/navbar.component";
 import Footer from "./routes/footer/footer.component";
 import React, { useEffect, Fragment } from "react";
 import "./App.css";
-
 import useLocalStorage from "use-local-storage";
 import {
   LabelColorMode,
   InputColorMode,
   SpanColorMode,
 } from "./components/color-mode/color-mode.styles";
-
 import { NavBarContainer } from "./components/navbar/navbar.styles";
 import { FooterContainer } from "./routes/footer/footer.styles";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 import About from "./routes/about/about.component";
 import NotFound from "./routes/notFound/not-found.component";
-
 import Freelance from "./routes/freelance/freelance.component";
-// import Travelling from "./routes/travelling/travelling.component";
 import Dev from "./routes/dev/dev.component";
-import Blog from "./components/blog/blog.component";
-import DevPostRoute from "./routes/dev-post/dev-post.route";
-
-import DevPost from "./components/posts/dev-post.component";
 import Skills from "./routes/skills/skills.component";
 
 function App () {
@@ -41,9 +32,6 @@ function App () {
     const newTheme = theme === "light" ? "dark" : "light";
     setTheme(newTheme);
   };
-
-  // click in the there input:
-  // display none for one image and display flex for the other
 
   useEffect(() => {
     AOS.init();
@@ -69,34 +57,14 @@ function App () {
       </NavBarContainer>
       <Routes>
         <Route path="/about" element={<About />} />
-
         <Route path="/websites" element={<Freelance />} />
         <Route path="/portfolio" element={<Dev />} />
         <Route path="/skills" element={<Skills />} />
-        {/*<Route path="/viajamylena" element={<Travelling />} />*/}
         <Route path="*" element={<NotFound />} />
-
-        {/*<Route path="/blog/*" element={<Blog />}>
-          <Route path=":topicId" element={<DevPostRoute />}>
-            <Route path=":postId" element={<DevPost />} />
-          </Route>
-        </Route>*/}
-
         <Route
           path="/"
           element={
             <Fragment>
-              {/*<LabelColorMode>
-                <InputColorMode
-                  type="checkbox"
-                  onClick={switchTheme}
-                ></InputColorMode>
-                <SpanColorMode></SpanColorMode>
-          </LabelColorMode>*/}
-
-              {/*<NavBar theme={theme} toggleTheme={themeToggler} />*/}
-              {/*<NavBar />*/}
-
               <Home />
               <FooterContainer>
                 <Footer />
@@ -104,7 +72,6 @@ function App () {
             </Fragment>
           }
         >
-          {/*<Route index element={<Home />} />*/}
         </Route>
       </Routes>
     </div>

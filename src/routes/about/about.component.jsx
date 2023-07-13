@@ -1,8 +1,6 @@
 import { AboutContainer, AboutGrid, FooterContainer } from "./about.styles";
-
 import { Fragment } from "react";
 import Vertical from "../../components/vertical/vertical.component";
-
 import { Link } from "react-router-dom";
 import Contact from "../../components/contact/contact.component";
 
@@ -57,14 +55,6 @@ const About = () => {
             alt="profilePicture"
           />
         </AboutGrid>
-
-        {/*<p data-aos={"fade-up"} data-aos-duration={"1000"}>
-          Please, send me an e-mail at{" "}
-          <a href="mailto:myvendramini@gmail.com?subject=contact-for-coding-job">
-            myvendramini@gmail.com
-          </a>
-          .
-            </p>*/}
         <br />
         <h4 id="contact">
           Do you have any questions or would you like to talk about work?

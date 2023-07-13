@@ -7,7 +7,6 @@ import {
   WebsiteButton,
   Link,
 } from "./popup.styles";
-
 import { FadeInDiv } from "../../animation";
 
 const PopupTodaCidada = ({ close }) => (

@@ -12,7 +12,6 @@ const Vertical = () => {
     <VerticalContainer>
       <RightContainer>
         <VerticalLinks>
-          {/*<Link to="/about">ABOUT</Link>*/}
           <VerticalLink to="projects" spy={true} smooth={true}>
             PROJECTS
           </VerticalLink>

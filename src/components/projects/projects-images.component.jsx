@@ -12,7 +12,6 @@ const ProjectsImages = () => {
       <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
         Come check some things I've built!
       </h1>
-
       <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"1000"}>
         <ProjectsGrid>
           <img
@@ -36,7 +35,6 @@ const ProjectsImages = () => {
           </TextContainer>
         </ProjectsGrid>
       </ProjectImage>
-
       <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"1000"}>
         <ProjectsGrid>
           <img
@@ -59,7 +57,6 @@ const ProjectsImages = () => {
           </TextContainer>
         </ProjectsGrid>
       </ProjectImage>
-
       <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"1000"}>
         <ProjectsGrid>
           <img
@@ -83,8 +80,6 @@ const ProjectsImages = () => {
           </TextContainer>
         </ProjectsGrid>
       </ProjectImage>
-
-
     </ProjectsContainer>
   );
 };

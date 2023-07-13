@@ -1,6 +1,5 @@
 import { SubpageContainer, SubpageGrid, SubpageImage } from "./subpage.styles";
 import { Link } from "react-router-dom";
-
 import { FadeInDiv } from "../../animation";
 import { scrollToTop } from "../../helper";
 
@@ -19,11 +18,6 @@ const Subpage = () => {
               <h2>I'm a dev</h2>
             </Link>
           </SubpageImage>
-          {/*<SubpageImage data-aos={"zoom-in-up"} data-aos-duration={"3000"}>
-          <Link onClick={() => scrollToTop()} to="/viajamylena">
-            <h2>I talk about travelling</h2>
-          </Link>
-  </SubpageImage>*/}
         </SubpageGrid>
       </FadeInDiv>
     </SubpageContainer>

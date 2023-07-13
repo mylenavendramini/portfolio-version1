@@ -4,20 +4,16 @@ import {
   AllPostsContainer,
   AllPostImage,
   Gradient,
-  BlogDescrible,
 } from "./posts.styles";
 
 import { PulseDiv } from "../../animation";
 import { DevContact } from "../../routes/dev/dev.styles";
-// import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
 import { getTopics } from "../../posts.data";
 import { scrollToTop } from "../../helper";
 
 const DevPosts = () => {
   const topics = getTopics();
-
-
   const [firstToggle, setFirstToggle] = useState(true);
   const [secondToggle, setSecondToggle] = useState(false);
 
@@ -90,7 +86,6 @@ const DevPosts = () => {
             </AllPostImage>
           ))}
         </AllPostsContainer>
-
         <DevContact>
           <h4 data-aos={"fade-up"} data-aos-duration={"1000"}>
             Do you have any questions or would you like to talk about work?

@@ -19,7 +19,6 @@ const Projects = () => {
       <h1 data-aos={"fade-up"} data-aos-duration={"1000"}>
         Come check some things I've built!
       </h1>
-
       <ProjectsGrid>
         <ProjectImage data-aos={"zoom-in-up"} data-aos-duration={"2000"}>
           <StyledPopup
