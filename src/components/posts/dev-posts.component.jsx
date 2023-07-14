@@ -12,12 +12,11 @@ import { DevContact } from "../../routes/dev/dev.styles";
 // import { Link } from "react-scroll";
 import { Link } from "react-router-dom";
 import { getTopics } from "../../posts.data";
+import { scrollToTop } from "../../helper";
 
 const DevPosts = () => {
   const topics = getTopics();
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
+
 
   const [firstToggle, setFirstToggle] = useState(true);
   const [secondToggle, setSecondToggle] = useState(false);
@@ -61,10 +60,10 @@ const DevPosts = () => {
         >
           {topics[0]?.map(({ title, id, imgUrl, body }) => (
             <AllPostImage key={id}>
-              <Link to={`/blog/all/${id}`} onClick={scrollToTop}>
+              <Link to={`/blog/all/${id}`} onClick={() => scrollToTop()}>
                 <img src={imgUrl} alt="post" />
               </Link>{" "}
-              <Link to={`/blog/all/${id}`} onClick={scrollToTop}>
+              <Link to={`/blog/all/${id}`} onClick={() => scrollToTop()}>
                 <h2>{title}</h2>
                 {body
                   .filter((_, idx) => idx < 1)
@@ -85,7 +84,7 @@ const DevPosts = () => {
         >
           {topics[1]?.map(({ name, id, imgUrl }) => (
             <AllPostImage key={id}>
-              <Link to={id} onClick={scrollToTop}>
+              <Link to={id} onClick={() => scrollToTop()}>
                 <h2>{name}</h2>
               </Link>{" "}
             </AllPostImage>

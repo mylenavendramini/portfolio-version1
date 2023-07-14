@@ -11,6 +11,7 @@ import { useParams } from "react-router-dom";
 import { getPost, getAllPosts } from "../../posts.data";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import { scrollToTop } from "../../helper";
 
 // Post itself:
 const DevPost = () => {
@@ -25,11 +26,8 @@ const DevPost = () => {
     navigate("/blog");
     window.scrollTo(0, 0);
   };
-  const scrollToTop = () => {
-    window.scrollTo(0, 0);
-  };
 
-   
+
 
   return (
     <div>
@@ -52,7 +50,7 @@ const DevPost = () => {
             .filter((_, idx) => idx < 4)
             .map((sub) => (
               <GaleryImage key={sub.id}>
-                <Link to={`/blog/all/${sub.id}`} onClick={scrollToTop}>
+                <Link to={`/blog/all/${sub.id}`} onClick={() => scrollToTop()}>
                   {" "}
                   <img src={sub.imgUrl} alt={`${sub.title}`} />
                 </Link>
@@ -65,7 +63,7 @@ const DevPost = () => {
           </a>{" "}
         </PostContent>
       </ContainerWithSideBar>
-      
+
     </div>
   );
 };
